@@ -1,0 +1,1522 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders deletable row 1`] = `
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c6 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c6 svg {
+  width: 1.2rem;
+}
+
+.c6:hover {
+  opacity: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<div>
+  <tr
+    class="c0"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="name"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="email"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="c5"
+      >
+        <button
+          aria-label="Delete"
+          class="c6"
+        >
+          <svg
+            aria-hidden="true"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row handles validation error on save 1`] = `
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c6 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c6 svg {
+  width: 1.2rem;
+}
+
+.c6:hover {
+  opacity: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<div>
+  <tr
+    class="c0"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="name"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="email"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="c5"
+      >
+        <button
+          aria-label="Edit"
+          class="c6"
+        >
+          <svg
+            aria-hidden="true"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+            />
+            <path
+              d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row handles validation error on save 2`] = `
+<div>
+  <tr
+    class="sc-jrsJWt bQeKdS"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+      >
+        <input
+          aria-label="name"
+          class="sc-pNWdM hrqpEL"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+      >
+        <input
+          aria-label="email"
+          class="sc-pNWdM hrqpEL"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="sc-bdnxRM jjGGfk"
+      >
+        <button
+          aria-label="Save"
+          class="sc-gtsrHT DqywN"
+        >
+          .c0 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<svg
+            aria-hidden="true"
+            class="c0"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 21h14a2 2 0 002-2V8l-5-5H5a2 2 0 00-2 2v14a2 2 0 002 2zM7 5h4v2h2V5h2v4H7V5zm0 8h10v6H7v-6z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row handles validation error on save 3`] = `
+<div>
+  <tr
+    class="sc-jrsJWt bQeKdS"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dbzMid"
+      >
+        <input
+          aria-label="name"
+          class="sc-pNWdM hrqpEL"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+        .c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 0;
+  font-size: 0.75rem;
+}
+
+.c0 span {
+  visibility: visible;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+
+.c0:hover span {
+  visibility: visible;
+}
+
+.c0 span::after {
+  content: ' ';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -12px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+<div
+          class="c0"
+        >
+          <svg
+            aria-hidden="true"
+            class="c1"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM13 17h-2v-2h2v2zm0-4h-2V7h2v6z"
+            />
+          </svg>
+          <span>
+            Value is not valid
+          </span>
+        </div>
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+      >
+        <input
+          aria-label="email"
+          class="sc-pNWdM hrqpEL"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="sc-bdnxRM jjGGfk"
+      >
+        <button
+          aria-label="Save"
+          class="sc-gtsrHT DqywN"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 21h14a2 2 0 002-2V8l-5-5H5a2 2 0 00-2 2v14a2 2 0 002 2zM7 5h4v2h2V5h2v4H7V5zm0 8h10v6H7v-6z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row renders row in edit mode 1`] = `
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c6 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c6 svg {
+  width: 1.2rem;
+}
+
+.c6:hover {
+  opacity: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<div>
+  <tr
+    class="c0"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="name"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="email"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="c5"
+      >
+        <button
+          aria-label="Edit"
+          class="c6"
+        >
+          <svg
+            aria-hidden="true"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+            />
+            <path
+              d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row renders row in edit mode 2`] = `
+<div>
+  <tr
+    class="sc-jrsJWt bQeKdS"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+      >
+        <input
+          aria-label="name"
+          class="sc-pNWdM hrqpEL"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+      >
+        <input
+          aria-label="email"
+          class="sc-pNWdM hrqpEL"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="sc-bdnxRM jjGGfk"
+      >
+        <button
+          aria-label="Save"
+          class="sc-gtsrHT DqywN"
+        >
+          .c0 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<svg
+            aria-hidden="true"
+            class="c0"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 21h14a2 2 0 002-2V8l-5-5H5a2 2 0 00-2 2v14a2 2 0 002 2zM7 5h4v2h2V5h2v4H7V5zm0 8h10v6H7v-6z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row renders row in read only mode 1`] = `
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c6 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c6 svg {
+  width: 1.2rem;
+}
+
+.c6:hover {
+  opacity: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<div>
+  <tr
+    class="c0"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="name"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="email"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="c5"
+      >
+        <button
+          aria-label="Edit"
+          class="c6"
+        >
+          <svg
+            aria-hidden="true"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+            />
+            <path
+              d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row saves row successfully if values are valid 1`] = `
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c6 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c6 svg {
+  width: 1.2rem;
+}
+
+.c6:hover {
+  opacity: 1;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<div>
+  <tr
+    class="c0"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="name"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="email"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="c5"
+      >
+        <button
+          aria-label="Edit"
+          class="c6"
+        >
+          <svg
+            aria-hidden="true"
+            class="c7"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+            />
+            <path
+              d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row saves row successfully if values are valid 2`] = `
+<div>
+  <tr
+    class="sc-jrsJWt bQeKdS"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+      >
+        <input
+          aria-label="name"
+          class="sc-pNWdM hrqpEL"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+      >
+        <input
+          aria-label="email"
+          class="sc-pNWdM hrqpEL"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="sc-bdnxRM jjGGfk"
+      >
+        <button
+          aria-label="Save"
+          class="sc-gtsrHT DqywN"
+        >
+          .c0 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<svg
+            aria-hidden="true"
+            class="c0"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M5 21h14a2 2 0 002-2V8l-5-5H5a2 2 0 00-2 2v14a2 2 0 002 2zM7 5h4v2h2V5h2v4H7V5zm0 8h10v6H7v-6z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders editble row saves row successfully if values are valid 3`] = `
+<div>
+  <tr
+    class="sc-jrsJWt bQeKdS"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH inrRyb"
+      >
+        <input
+          aria-label="name"
+          class="sc-pNWdM cEMaFq"
+          role="textbox"
+          type="text"
+          value="Alexander"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH inrRyb"
+      >
+        <input
+          aria-label="email"
+          class="sc-pNWdM cEMaFq"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="sc-bdnxRM jjGGfk"
+      >
+        <button
+          aria-label="Edit"
+          class="sc-gtsrHT DqywN"
+        >
+          .c0 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<svg
+            aria-hidden="true"
+            class="c0"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+            />
+            <path
+              d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+            />
+          </svg>
+        </button>
+      </div>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders row 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<div>
+  <tr
+    class="c0"
+  >
+    <td>
+      <div
+        aria-label="name"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="name"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="email"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="c5"
+      />
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders selectable row where current selection is false 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<div>
+  <tr
+    class="c0"
+  >
+    <td>
+      <input
+        aria-label="Select row"
+        type="checkbox"
+      />
+    </td>
+    <td>
+      <div
+        aria-label="name"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="name"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="email"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="c5"
+      />
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`renders selectable row where current selection is true 1`] = `
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+  background-color: var(--row-active-bg);
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<div>
+  <tr
+    class="c0"
+  >
+    <td>
+      <input
+        aria-label="Select row"
+        checked=""
+        type="checkbox"
+      />
+    </td>
+    <td>
+      <div
+        aria-label="name"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="name"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        aria-label="email"
+        class="c1 c2 c3"
+      >
+        <input
+          aria-label="email"
+          class="c4"
+          role="textbox"
+          type="text"
+          value="Alex@protonmail.com"
+        />
+      </div>
+    </td>
+    <td>
+      <div
+        class="c5"
+      />
+    </td>
+  </tr>
+</div>
+`;

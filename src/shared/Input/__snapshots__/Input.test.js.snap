@@ -1,0 +1,248 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders editable input 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+}
+
+.c2:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c2 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c3 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0 c1 c2"
+  >
+    <input
+      class="c3"
+      role="textbox"
+      type="text"
+      value="Alex"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders input with validation error 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c4 {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 0;
+  font-size: 0.75rem;
+}
+
+.c4 span {
+  visibility: visible;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+
+.c4:hover span {
+  visibility: visible;
+}
+
+.c4 span::after {
+  content: ' ';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -12px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+.c2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  border: 1px solid red;
+}
+
+.c2:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c2 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c3 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0 c1 c2"
+  >
+    <input
+      class="c3"
+      role="textbox"
+      type="text"
+      value="Alex"
+    />
+    <div
+      class="c4"
+    >
+      <svg
+        aria-hidden="true"
+        class="c5"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM13 17h-2v-2h2v2zm0-4h-2V7h2v6z"
+        />
+      </svg>
+      <span>
+        Value is not valid
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders readonly input 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c1 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c2 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c2:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c2 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c3 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus {
+  outline: none;
+}
+
+<div>
+  <div
+    class="c0 c1 c2"
+  >
+    <input
+      class="c3"
+      role="textbox"
+      type="text"
+      value="Some text"
+    />
+  </div>
+</div>
+`;

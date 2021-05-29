@@ -1,0 +1,8120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Delete delete a row from table 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c14 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c17 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c17 svg {
+  width: 1.2rem;
+}
+
+.c17:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c16 {
+  --button-primary-color: #1890ff;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c13"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c14"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c17 c16"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Delete delete a row from table 2`] = `
+<div>
+  <div>
+    <div
+      class="sc-fujyAs FaySh"
+    >
+      <div
+        aria-label="Search"
+        class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG hAQGtO"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="sc-iCoGMd eBZcuw"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="sc-dIsUp fqKYsd"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c6 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c6 svg {
+  width: 1.2rem;
+}
+
+.c6:hover {
+  opacity: 1;
+}
+
+.c8 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c8 svg {
+  width: 1.2rem;
+}
+
+.c8:hover {
+  opacity: 1;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<tr
+          class="c0"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c3"
+            >
+              <input
+                aria-label="name"
+                class="c4"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c3"
+            >
+              <input
+                aria-label="email"
+                class="c4"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c5"
+            >
+              <button
+                aria-label="Edit"
+                class="c6"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c7"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c7"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="sc-iqAclL byObWl"
+    >
+      <button
+        aria-label="Delete selected"
+        class="sc-pNWdM kcxJsD"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="sc-jrsJWt ehyCyd"
+      >
+        <button
+          aria-label="Go to first page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Delete delete all rows from table 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c14 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c17 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c17 svg {
+  width: 1.2rem;
+}
+
+.c17:hover {
+  opacity: 1;
+}
+
+.c18 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c18 svg {
+  width: 1.2rem;
+}
+
+.c18:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c16 {
+  --button-primary-color: #1890ff;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c13"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c14"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c17 c16"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to page 2"
+          class="c18 c16"
+          shape="round"
+        >
+          2
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c18 c16"
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c18 c16"
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Delete delete all rows from table 2`] = `
+<div>
+  <div>
+    <div
+      class="sc-fujyAs FaySh"
+    >
+      <div
+        aria-label="Search"
+        class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG hAQGtO"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="sc-iCoGMd eBZcuw"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="sc-dIsUp fqKYsd"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c6 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c6 svg {
+  width: 1.2rem;
+}
+
+.c6:hover {
+  opacity: 1;
+}
+
+.c8 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c8 svg {
+  width: 1.2rem;
+}
+
+.c8:hover {
+  opacity: 1;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<tr
+          class="c0"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c3"
+            >
+              <input
+                aria-label="name"
+                class="c4"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c3"
+            >
+              <input
+                aria-label="email"
+                class="c4"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c5"
+            >
+              <button
+                aria-label="Edit"
+                class="c6"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c7"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c7"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="sc-iqAclL byObWl"
+    >
+      <button
+        aria-label="Delete selected"
+        class="sc-pNWdM kcxJsD"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="sc-jrsJWt ehyCyd"
+      >
+        <button
+          aria-label="Go to first page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Delete delete selected row from table 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c14 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c17 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c17 svg {
+  width: 1.2rem;
+}
+
+.c17:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c16 {
+  --button-primary-color: #1890ff;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c13"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c14"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c17 c16"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Delete delete selected row from table 2`] = `
+<div>
+  <div>
+    <div
+      class="sc-fujyAs FaySh"
+    >
+      <div
+        aria-label="Search"
+        class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG hAQGtO"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="sc-iCoGMd eBZcuw"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="sc-dIsUp fqKYsd"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        .c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c7 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c6 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c6 svg {
+  width: 1.2rem;
+}
+
+.c6:hover {
+  opacity: 1;
+}
+
+.c8 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c8 svg {
+  width: 1.2rem;
+}
+
+.c8:hover {
+  opacity: 1;
+}
+
+.c5 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c5 button {
+  margin-right: 0.5rem;
+}
+
+.c0 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c0:hover {
+  background-color: var(--row-active-bg);
+}
+
+<tr
+          class="c0"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c3"
+            >
+              <input
+                aria-label="name"
+                class="c4"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c3"
+            >
+              <input
+                aria-label="email"
+                class="c4"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c5"
+            >
+              <button
+                aria-label="Edit"
+                class="c6"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c7"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c8"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c7"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="sc-iqAclL byObWl"
+    >
+      <button
+        aria-label="Delete selected"
+        class="sc-pNWdM kcxJsD"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="sc-jrsJWt ehyCyd"
+      >
+        <button
+          aria-label="Go to first page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modify row modify row with validation erros  1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c14 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c17 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c17 svg {
+  width: 1.2rem;
+}
+
+.c17:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c16 {
+  --button-primary-color: #1890ff;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c13"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c14"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c17 c16"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modify row modify row with validation erros  2`] = `
+<div>
+  <div>
+    <div
+      class="sc-fujyAs FaySh"
+    >
+      <div
+        aria-label="Search"
+        class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG hAQGtO"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="sc-iCoGMd eBZcuw"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="sc-dIsUp fqKYsd"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="sc-crzoAE fhpXkY"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG bfPkVQ"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd eBZcuw"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+              .c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 0;
+  font-size: 0.75rem;
+}
+
+.c0 span {
+  visibility: visible;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+
+.c0:hover span {
+  visibility: visible;
+}
+
+.c0 span::after {
+  content: ' ';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -12px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+<div
+                class="c0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c1"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM13 17h-2v-2h2v2zm0-4h-2V7h2v6z"
+                  />
+                </svg>
+                <span>
+                  Validation failed
+                </span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG bfPkVQ"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd eBZcuw"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+              .c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  position: relative;
+  display: inline-block;
+  padding: 0.5rem 0;
+  font-size: 0.75rem;
+}
+
+.c0 span {
+  visibility: visible;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 0.5rem;
+  border-radius: 6px;
+  top: 100%;
+  left: 50%;
+  margin-left: -60px;
+  position: absolute;
+  z-index: 1;
+}
+
+.c0:hover span {
+  visibility: visible;
+}
+
+.c0 span::after {
+  content: ' ';
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -12px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent black transparent;
+}
+
+<div
+                class="c0"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c1"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM13 17h-2v-2h2v2zm0-4h-2V7h2v6z"
+                  />
+                </svg>
+                <span>
+                  Validation failed
+                </span>
+              </div>
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Save"
+                class="sc-pNWdM lkTBsz"
+              >
+                .c0 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<svg
+                  aria-hidden="true"
+                  class="c0"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M5 21h14a2 2 0 002-2V8l-5-5H5a2 2 0 00-2 2v14a2 2 0 002 2zM7 5h4v2h2V5h2v4H7V5zm0 8h10v6H7v-6z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="sc-crzoAE fhpXkY"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Edit"
+                class="sc-pNWdM lkTBsz"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="sc-iqAclL byObWl"
+    >
+      <button
+        aria-label="Delete selected"
+        class="sc-pNWdM kcxJsD"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="sc-jrsJWt ehyCyd"
+      >
+        <button
+          aria-label="Go to first page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modify row modify row without validation erros  1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c14 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c17 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c17 svg {
+  width: 1.2rem;
+}
+
+.c17:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c16 {
+  --button-primary-color: #1890ff;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c13"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c14"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c17 c16"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Modify row modify row without validation erros  2`] = `
+<div>
+  <div>
+    <div
+      class="sc-fujyAs FaySh"
+    >
+      <div
+        aria-label="Search"
+        class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG hAQGtO"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="sc-iCoGMd eBZcuw"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="sc-dIsUp fqKYsd"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="sc-crzoAE fhpXkY"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="Alexander"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="alexander@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Edit"
+                class="sc-pNWdM lkTBsz"
+              >
+                .c0 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+<svg
+                  aria-hidden="true"
+                  class="c0"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="sc-crzoAE fhpXkY"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Edit"
+                class="sc-pNWdM lkTBsz"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="sc-iqAclL byObWl"
+    >
+      <button
+        aria-label="Delete selected"
+        class="sc-pNWdM kcxJsD"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="sc-jrsJWt ehyCyd"
+      >
+        <button
+          aria-label="Go to first page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select select all rows 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c14 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c17 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c17 svg {
+  width: 1.2rem;
+}
+
+.c17:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c16 {
+  --button-primary-color: #1890ff;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c13"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c14"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c17 c16"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select select all rows 2`] = `
+<div>
+  <div>
+    <div
+      class="sc-fujyAs FaySh"
+    >
+      <div
+        aria-label="Search"
+        class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG hAQGtO"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="sc-iCoGMd eBZcuw"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="sc-dIsUp fqKYsd"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="sc-crzoAE kQulJM"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Edit"
+                class="sc-pNWdM lkTBsz"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="sc-crzoAE kQulJM"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Edit"
+                class="sc-pNWdM lkTBsz"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="sc-iqAclL byObWl"
+    >
+      <button
+        aria-label="Delete selected"
+        class="sc-pNWdM gAlEYh"
+      >
+        Delete Selected
+      </button>
+      <div
+        class="sc-jrsJWt ehyCyd"
+      >
+        <button
+          aria-label="Go to first page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select select all rows 3`] = `
+<div>
+  <div>
+    <div
+      class="sc-fujyAs FaySh"
+    >
+      <div
+        aria-label="Search"
+        class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG hAQGtO"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="sc-iCoGMd eBZcuw"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="sc-dIsUp fqKYsd"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="sc-crzoAE fhpXkY"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Edit"
+                class="sc-pNWdM lkTBsz"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="sc-crzoAE fhpXkY"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Edit"
+                class="sc-pNWdM lkTBsz"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="sc-iqAclL byObWl"
+    >
+      <button
+        aria-label="Delete selected"
+        class="sc-pNWdM kcxJsD"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="sc-jrsJWt ehyCyd"
+      >
+        <button
+          aria-label="Go to first page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Select unselect a row from all selection 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c16 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16 svg {
+  width: 1.2rem;
+}
+
+.c16:hover {
+  opacity: 1;
+}
+
+.c18 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c18 svg {
+  width: 1.2rem;
+}
+
+.c18:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c17 {
+  --button-primary-color: #1890ff;
+}
+
+.c14 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c13 {
+  --row-active-bg: #f2f2f2;
+  background-color: var(--row-active-bg);
+}
+
+.c13:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="c13"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c14"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c15"
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c16 c17"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c16 c17"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c18 c17"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c16 c17"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c16 c17"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders empty table 1`] = `
+.c2 {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c4 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c1 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c1 th {
+  text-transform: capitalize;
+}
+
+.c1 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c1 td,
+.c1 th {
+  padding: 0.75rem 1rem;
+}
+
+.c3 {
+  padding: 2rem;
+  color: gray;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    />
+    <table
+      class="c1"
+    >
+      <thead>
+        <tr>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+        </tr>
+      </thead>
+      <tbody />
+    </table>
+    <div
+      class="c2 c3"
+    >
+      No data to show
+    </div>
+    <div
+      class="c4"
+    />
+  </div>
+</div>
+`;
+
+exports[`renders paginated table with edit, delete, search & select functions 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c14 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c17 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c17 svg {
+  width: 1.2rem;
+}
+
+.c17:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c16 {
+  --button-primary-color: #1890ff;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c13"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c14"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c17 c16"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders plain table 1`] = `
+.c3 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c4 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c5 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c5:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c5 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c6 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c6:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c7 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c7 button {
+  margin-right: 0.5rem;
+}
+
+.c8 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c2 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c2:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c1 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c1 th {
+  text-transform: capitalize;
+}
+
+.c1 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c1 td,
+.c1 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    />
+    <table
+      class="c1"
+    >
+      <thead>
+        <tr>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c2"
+        >
+          <td>
+            <div
+              aria-label="name"
+              class="c3 c4 c5"
+            >
+              <input
+                aria-label="name"
+                class="c6"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c3 c4 c5"
+            >
+              <input
+                aria-label="email"
+                class="c6"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c7"
+            />
+          </td>
+        </tr>
+        <tr
+          class="c2"
+        >
+          <td>
+            <div
+              aria-label="name"
+              class="c3 c4 c5"
+            >
+              <input
+                aria-label="name"
+                class="c6"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c3 c4 c5"
+            >
+              <input
+                aria-label="email"
+                class="c6"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c7"
+            />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c8"
+    />
+  </div>
+</div>
+`;
+
+exports[`search table 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c2 {
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+
+.c11 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c3 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid #d8d8d8;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  padding: .25rem 1rem;
+}
+
+.c3:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c3 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c7 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  border: 1px solid transparent;
+  border-radius: 0.2rem;
+  background-color: white;
+  min-width: 250px;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c7:focus-within {
+  border: 1px solid #1890ff;
+}
+
+.c7 svg {
+  fill: red;
+  width: 1.2rem;
+  padding: 0 0.5rem;
+}
+
+.c4 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+}
+
+.c4:focus {
+  outline: none;
+}
+
+.c8 {
+  border-style: none;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  width: 100%;
+  background-color: transparent;
+  pointer-events: none;
+}
+
+.c8:focus {
+  outline: none;
+}
+
+.c0 {
+  padding: 1rem;
+}
+
+.c10 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c10 svg {
+  width: 1.2rem;
+}
+
+.c10:hover {
+  opacity: 1;
+}
+
+.c12 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c12 svg {
+  width: 1.2rem;
+}
+
+.c12:hover {
+  opacity: 1;
+}
+
+.c14 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:hover {
+  opacity: 1;
+}
+
+.c17 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c17 svg {
+  width: 1.2rem;
+}
+
+.c17:hover {
+  opacity: 1;
+}
+
+.c9 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c9 button {
+  margin-right: 0.5rem;
+}
+
+.c16 {
+  --button-primary-color: #1890ff;
+}
+
+.c13 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 1rem;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.c6 {
+  --row-active-bg: #f2f2f2;
+}
+
+.c6:hover {
+  background-color: var(--row-active-bg);
+}
+
+.c5 {
+  text-align: left;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.c5 th {
+  text-transform: capitalize;
+}
+
+.c5 tr {
+  border-bottom: 1px solid lightgray;
+}
+
+.c5 td,
+.c5 th {
+  padding: 0.75rem 1rem;
+}
+
+<div>
+  <div>
+    <div
+      class="c0"
+    >
+      <div
+        aria-label="Search"
+        class="c1 c2 c3"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="c4"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value=""
+        />
+      </div>
+    </div>
+    <table
+      class="c5"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+        <tr
+          class="c6"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="name"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="Chris"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="c1 c2 c7"
+            >
+              <input
+                aria-label="email"
+                class="c8"
+                role="textbox"
+                type="text"
+                value="chris@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="c9"
+            >
+              <button
+                aria-label="Edit"
+                class="c10"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="c12"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="c11"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="c13"
+    >
+      <button
+        aria-label="Delete selected"
+        class="c14"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="c9"
+      >
+        <button
+          aria-label="Go to first page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="c17 c16"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="c15 c16"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="c11"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`search table 2`] = `
+<div>
+  <div>
+    <div
+      class="sc-fujyAs FaySh"
+    >
+      <div
+        aria-label="Search"
+        class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG hAQGtO"
+        placeholder="Search by name, email"
+      >
+        <input
+          aria-label="Search"
+          class="sc-iCoGMd eBZcuw"
+          placeholder="Search by name, email"
+          role="search"
+          type="text"
+          value="Alex"
+        />
+      </div>
+    </div>
+    <table
+      class="sc-dIsUp fqKYsd"
+    >
+      <thead>
+        <tr>
+          <th>
+            <input
+              aria-label="Select all"
+              type="checkbox"
+            />
+          </th>
+          <th>
+            name
+          </th>
+          <th>
+            email
+          </th>
+          <th>
+            actions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr
+          class="sc-crzoAE fhpXkY"
+        >
+          <td>
+            <input
+              aria-label="Select row"
+              type="checkbox"
+            />
+          </td>
+          <td>
+            <div
+              aria-label="name"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="name"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="Alex"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              aria-label="email"
+              class="sc-dlnjwi sc-hKFxyN sc-gKAaRy GCjvm hsQmiG eWqnxi"
+            >
+              <input
+                aria-label="email"
+                class="sc-iCoGMd fUzglB"
+                role="textbox"
+                type="text"
+                value="alex@protonmail.com"
+              />
+            </div>
+          </td>
+          <td>
+            <div
+              class="sc-jrsJWt ehyCyd"
+            >
+              <button
+                aria-label="Edit"
+                class="sc-pNWdM lkTBsz"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M18.988 2.012l3 3L19.701 7.3l-3-3zM8 16h3l7.287-7.287-3-3L8 13z"
+                  />
+                  <path
+                    d="M19 19H8.158c-.026 0-.053.01-.079.01-.033 0-.066-.009-.1-.01H5V5h6.847l2-2H5c-1.103 0-2 .896-2 2v14c0 1.104.897 2 2 2h14a2 2 0 002-2v-8.668l-2 2V19z"
+                  />
+                </svg>
+              </button>
+              <button
+                aria-label="Delete"
+                class="sc-pNWdM jtKaeu"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="StyledIconBase-ea9ulj-0 fBxgqm"
+                  fill="currentColor"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6 7H5v13a2 2 0 002 2h10a2 2 0 002-2V7H6zm4 12H8v-9h2v9zm6 0h-2v-9h2v9zm.618-15L15 2H9L7.382 4H3v2h18V4z"
+                  />
+                </svg>
+              </button>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <div
+      class="sc-iqAclL byObWl"
+    >
+      <button
+        aria-label="Delete selected"
+        class="sc-pNWdM kcxJsD"
+        disabled=""
+      >
+        Delete Selected
+      </button>
+      <div
+        class="sc-jrsJWt ehyCyd"
+      >
+        <button
+          aria-label="Go to first page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+            />
+            <path
+              d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to previous page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to page 1"
+          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          shape="round"
+        >
+          1
+        </button>
+        <button
+          aria-label="Go to next page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+        <button
+          aria-label="Go to last page"
+          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          disabled=""
+          shape="round"
+        >
+          <svg
+            aria-hidden="true"
+            class="StyledIconBase-ea9ulj-0 fBxgqm"
+            fill="currentColor"
+            focusable="false"
+            viewBox="0 0 24 24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+            />
+            <path
+              d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+            />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
+`;

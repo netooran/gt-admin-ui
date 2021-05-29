@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders header row with actions 1`] = `
+<div>
+  <tr>
+    <th>
+      name
+    </th>
+    <th>
+      email
+    </th>
+    <th>
+      actions
+    </th>
+  </tr>
+</div>
+`;
+
+exports[`renders header row with select all 1`] = `
+<div>
+  <tr>
+    <th>
+      <input
+        aria-label="Select all"
+        type="checkbox"
+      />
+    </th>
+    <th>
+      name
+    </th>
+    <th>
+      email
+    </th>
+  </tr>
+</div>
+`;
+
+exports[`renders header row without actions 1`] = `
+<div>
+  <tr>
+    <th>
+      name
+    </th>
+    <th>
+      email
+    </th>
+  </tr>
+</div>
+`;
+
+exports[`renders header row without select all 1`] = `
+<div>
+  <tr>
+    <th>
+      name
+    </th>
+    <th>
+      email
+    </th>
+  </tr>
+</div>
+`;

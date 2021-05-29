@@ -1,0 +1,567 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Default Button renders button with default props 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Ghost Button renders button with primary color for text & without background & border 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Ghost Button renders button with primary color for text & without background & border but disabled 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+    disabled=""
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Ghost Button renders button with primary color for text & without background & border in round shape 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+    shape="round"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Ghost Button renders button with red color for text & without background & border 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Icon Button renders button primary colored icon 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 00.707-1.707l-9-9a.999.999 0 00-1.414 0l-9 9A1 1 0 003 13zm7 7v-5h4v5h-4zm2-15.586l6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Icon Button renders button primary colored icon but disabled 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+    disabled=""
+  >
+    <svg
+      aria-hidden="true"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 00.707-1.707l-9-9a.999.999 0 00-1.414 0l-9 9A1 1 0 003 13zm7 7v-5h4v5h-4zm2-15.586l6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Icon Button renders button red colored icon 1`] = `
+.c1 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  color: var(--button-primary-color);
+  padding: 0;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    <svg
+      aria-hidden="true"
+      class="c1"
+      fill="currentColor"
+      focusable="false"
+      viewBox="0 0 24 24"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M3 13h1v7c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-7h1a1 1 0 00.707-1.707l-9-9a.999.999 0 00-1.414 0l-9 9A1 1 0 003 13zm7 7v-5h4v5h-4zm2-15.586l6 6V15l.001 5H16v-5c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v5H6v-9.586l6-6z"
+      />
+    </svg>
+  </button>
+</div>
+`;
+
+exports[`Outlined Button renders button with transparent background & primary colored border and text 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Outlined Button renders button with transparent background & primary colored border and text and rounded borders 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+    shape="round"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Outlined Button renders button with transparent background & primary colored border and text but disabled 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+    disabled=""
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Outlined Button renders button with transparent background & red colored border and text 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Solid Button renders button with primary color as background & white font & rounded border 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+    shape="round"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Solid Button renders button with primary color as background & white font 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Solid Button renders button with primary color as background & white font but disabled 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+    disabled=""
+  >
+    Click me
+  </button>
+</div>
+`;
+
+exports[`Solid Button renders button with red background color & white font 1`] = `
+.c0 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c0 svg {
+  width: 1.2rem;
+}
+
+.c0:hover {
+  opacity: 1;
+}
+
+<div>
+  <button
+    class="c0"
+  >
+    Click me
+  </button>
+</div>
+`;

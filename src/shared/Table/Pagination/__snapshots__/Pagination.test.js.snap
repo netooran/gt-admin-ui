@@ -1,0 +1,815 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders pagination with 1st page active 1`] = `
+.c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c1 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c1 svg {
+  width: 1.2rem;
+}
+
+.c1:hover {
+  opacity: 1;
+}
+
+.c4 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c4 svg {
+  width: 1.2rem;
+}
+
+.c4:hover {
+  opacity: 1;
+}
+
+.c5 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c5 svg {
+  width: 1.2rem;
+}
+
+.c5:hover {
+  opacity: 1;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 button {
+  margin-right: 0.5rem;
+}
+
+.c2 {
+  --button-primary-color: #1890ff;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      aria-label="Go to first page"
+      class="c1 c2"
+      disabled=""
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+        />
+        <path
+          d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to previous page"
+      class="c1 c2"
+      disabled=""
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to page 1"
+      class="c4 c2"
+      shape="round"
+    >
+      1
+    </button>
+    <button
+      aria-label="Go to page 2"
+      class="c5 c2"
+      shape="round"
+    >
+      2
+    </button>
+    <button
+      aria-label="Go to page 3"
+      class="c5 c2"
+      shape="round"
+    >
+      3
+    </button>
+    <button
+      aria-label="Go to page 4"
+      class="c5 c2"
+      shape="round"
+    >
+      4
+    </button>
+    <button
+      aria-label="Go to page 5"
+      class="c5 c2"
+      shape="round"
+    >
+      5
+    </button>
+    <button
+      aria-label="Go to next page"
+      class="c5 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to last page"
+      class="c5 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+        />
+        <path
+          d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders pagination with a page greater than default pages to display (5) 1`] = `
+.c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c1 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c1 svg {
+  width: 1.2rem;
+}
+
+.c1:hover {
+  opacity: 1;
+}
+
+.c4 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c4 svg {
+  width: 1.2rem;
+}
+
+.c4:hover {
+  opacity: 1;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 button {
+  margin-right: 0.5rem;
+}
+
+.c2 {
+  --button-primary-color: #1890ff;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      aria-label="Go to first page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+        />
+        <path
+          d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to previous page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to page 2"
+      class="c1 c2"
+      shape="round"
+    >
+      2
+    </button>
+    <button
+      aria-label="Go to page 3"
+      class="c1 c2"
+      shape="round"
+    >
+      3
+    </button>
+    <button
+      aria-label="Go to page 4"
+      class="c1 c2"
+      shape="round"
+    >
+      4
+    </button>
+    <button
+      aria-label="Go to page 5"
+      class="c1 c2"
+      shape="round"
+    >
+      5
+    </button>
+    <button
+      aria-label="Go to page 6"
+      class="c4 c2"
+      shape="round"
+    >
+      6
+    </button>
+    <button
+      aria-label="Go to next page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to last page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+        />
+        <path
+          d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders pagination with a page in the middle active 1`] = `
+.c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c1 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c1 svg {
+  width: 1.2rem;
+}
+
+.c1:hover {
+  opacity: 1;
+}
+
+.c4 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c4 svg {
+  width: 1.2rem;
+}
+
+.c4:hover {
+  opacity: 1;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 button {
+  margin-right: 0.5rem;
+}
+
+.c2 {
+  --button-primary-color: #1890ff;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      aria-label="Go to first page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+        />
+        <path
+          d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to previous page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to page 1"
+      class="c1 c2"
+      shape="round"
+    >
+      1
+    </button>
+    <button
+      aria-label="Go to page 2"
+      class="c1 c2"
+      shape="round"
+    >
+      2
+    </button>
+    <button
+      aria-label="Go to page 3"
+      class="c4 c2"
+      shape="round"
+    >
+      3
+    </button>
+    <button
+      aria-label="Go to page 4"
+      class="c1 c2"
+      shape="round"
+    >
+      4
+    </button>
+    <button
+      aria-label="Go to page 5"
+      class="c1 c2"
+      shape="round"
+    >
+      5
+    </button>
+    <button
+      aria-label="Go to next page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to last page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+        />
+        <path
+          d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders pagination with last page active 1`] = `
+.c3 {
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+}
+
+.c1 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c1 svg {
+  width: 1.2rem;
+}
+
+.c1:hover {
+  opacity: 1;
+}
+
+.c4 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: transparent;
+  border: 1px solid var(--button-primary-color);
+  color: var(--button-primary-color);
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+}
+
+.c4 svg {
+  width: 1.2rem;
+}
+
+.c4:hover {
+  opacity: 1;
+}
+
+.c5 {
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: #000000;
+  background-color: var(--button-primary-color);
+  color: white;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c5 svg {
+  width: 1.2rem;
+}
+
+.c5:hover {
+  opacity: 1;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 button {
+  margin-right: 0.5rem;
+}
+
+.c2 {
+  --button-primary-color: #1890ff;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button
+      aria-label="Go to first page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M8.121 12l4.94-4.939-2.122-2.122L3.879 12l7.06 7.061 2.122-2.122z"
+        />
+        <path
+          d="M17.939 4.939L10.879 12l7.06 7.061 2.122-2.122L15.121 12l4.94-4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to previous page"
+      class="c1 c2"
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.939 4.939L6.879 12l7.06 7.061 2.122-2.122L11.121 12l4.94-4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to page 1"
+      class="c1 c2"
+      shape="round"
+    >
+      1
+    </button>
+    <button
+      aria-label="Go to page 2"
+      class="c1 c2"
+      shape="round"
+    >
+      2
+    </button>
+    <button
+      aria-label="Go to page 3"
+      class="c1 c2"
+      shape="round"
+    >
+      3
+    </button>
+    <button
+      aria-label="Go to page 4"
+      class="c1 c2"
+      shape="round"
+    >
+      4
+    </button>
+    <button
+      aria-label="Go to page 5"
+      class="c4 c2"
+      shape="round"
+    >
+      5
+    </button>
+    <button
+      aria-label="Go to next page"
+      class="c5 c2"
+      disabled=""
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M10.061 19.061L17.121 12l-7.06-7.061-2.122 2.122L12.879 12l-4.94 4.939z"
+        />
+      </svg>
+    </button>
+    <button
+      aria-label="Go to last page"
+      class="c5 c2"
+      disabled=""
+      shape="round"
+    >
+      <svg
+        aria-hidden="true"
+        class="c3"
+        fill="currentColor"
+        focusable="false"
+        viewBox="0 0 24 24"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M13.061 4.939l-2.122 2.122L15.879 12l-4.94 4.939 2.122 2.122L20.121 12z"
+        />
+        <path
+          d="M6.061 19.061L13.121 12l-7.06-7.061-2.122 2.122L8.879 12l-4.94 4.939z"
+        />
+      </svg>
+    </button>
+  </div>
+</div>
+`;

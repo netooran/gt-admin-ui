@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders button group 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.c0 button {
+  margin-right: 0.5rem;
+}
+
+<div>
+  <div
+    class="c0"
+  >
+    <button>
+      Click Me
+    </button>
+    <button>
+      Click Me
+    </button>
+  </div>
+</div>
+`;
