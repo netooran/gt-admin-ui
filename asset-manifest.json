@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/gt-admin-ui/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/gt-admin-ui/static/js/main.f05c8234.chunk.js",
+    "main.js.map": "/gt-admin-ui/static/js/main.f05c8234.chunk.js.map",
+    "runtime-main.js": "/gt-admin-ui/static/js/runtime-main.af5d830a.js",
+    "runtime-main.js.map": "/gt-admin-ui/static/js/runtime-main.af5d830a.js.map",
+    "static/js/2.7ce9c061.chunk.js": "/gt-admin-ui/static/js/2.7ce9c061.chunk.js",
+    "static/js/2.7ce9c061.chunk.js.map": "/gt-admin-ui/static/js/2.7ce9c061.chunk.js.map",
+    "static/js/3.4af73b8f.chunk.js": "/gt-admin-ui/static/js/3.4af73b8f.chunk.js",
+    "static/js/3.4af73b8f.chunk.js.map": "/gt-admin-ui/static/js/3.4af73b8f.chunk.js.map",
+    "index.html": "/gt-admin-ui/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/gt-admin-ui/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.7ce9c061.chunk.js.LICENSE.txt": "/gt-admin-ui/static/js/2.7ce9c061.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af5d830a.js",
+    "static/js/2.7ce9c061.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.f05c8234.chunk.js"
+  ]
+}
