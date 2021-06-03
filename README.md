@@ -56,6 +56,10 @@ Lints the app with `eslint` and fixes all the auto fixable lint errors and warni
 
 Formats the app with prettier. All js, jsx, json & md files formatted.
 
+### `npm run deploy`
+
+Deploys app to [Website](https://netooran.github.io/gt-admin-ui/) using Github Pages.
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
