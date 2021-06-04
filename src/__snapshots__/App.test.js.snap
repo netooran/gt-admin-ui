@@ -145,7 +145,7 @@ exports[`renders loader 1`] = `
 `;
 
 exports[`renders table when data is available 1`] = `
-.c14 {
+.c13 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -232,122 +232,131 @@ exports[`renders table when data is available 1`] = `
   outline: none;
 }
 
-.c11 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c7:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c11:focus {
-  outline: none;
 }
 
 .c3 {
   padding: 1rem;
 }
 
-.c13 {
+.c12 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c13 svg {
+.c12 svg {
   width: 1.2rem;
 }
 
-.c13:hover {
+.c12:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c12:hover {
   opacity: 1;
 }
 
-.c15 {
+.c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c15 svg {
+.c14 svg {
   width: 1.2rem;
 }
 
-.c15:hover {
+.c14:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c16 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c16 svg {
+  width: 1.2rem;
+}
+
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
 .c17 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c17 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
-  opacity: 1;
-}
-
-.c18 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c17:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c18 svg {
-  width: 1.2rem;
-}
-
-.c18:hover {
+.c17:hover {
   opacity: 1;
 }
 
-.c20 {
+.c19 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -356,30 +365,35 @@ exports[`renders table when data is available 1`] = `
   padding: 0;
 }
 
-.c20 svg {
+.c19 svg {
   width: 1.2rem;
 }
 
-.c20:hover {
+.c19:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c19:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c12 button {
+.c11 button {
   margin-right: 0.5rem;
 }
 
-.c19 {
+.c18 {
   --button-primary-color: #1890ff;
 }
 
-.c16 {
+.c15 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -453,6 +467,7 @@ exports[`renders table when data is available 1`] = `
             </div>
           </div>
           <table
+            aria-label="Users table"
             class="c8"
           >
             <thead>
@@ -494,7 +509,8 @@ exports[`renders table when data is available 1`] = `
                   >
                     <input
                       aria-label="name"
-                      class="c11"
+                      class="c7"
+                      disabled=""
                       role="textbox"
                       type="text"
                       value="Alex"
@@ -508,7 +524,8 @@ exports[`renders table when data is available 1`] = `
                   >
                     <input
                       aria-label="email"
-                      class="c11"
+                      class="c7"
+                      disabled=""
                       role="textbox"
                       type="email"
                       value="alex@protonmail.com"
@@ -522,7 +539,8 @@ exports[`renders table when data is available 1`] = `
                   >
                     <input
                       aria-label="role"
-                      class="c11"
+                      class="c7"
+                      disabled=""
                       role="textbox"
                       type="text"
                       value="admin"
@@ -531,15 +549,15 @@ exports[`renders table when data is available 1`] = `
                 </td>
                 <td>
                   <div
-                    class="c12"
+                    class="c11"
                   >
                     <button
                       aria-label="Edit"
-                      class="c13"
+                      class="c12"
                     >
                       <svg
                         aria-hidden="true"
-                        class="c14"
+                        class="c13"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 24 24"
@@ -555,11 +573,11 @@ exports[`renders table when data is available 1`] = `
                     </button>
                     <button
                       aria-label="Delete"
-                      class="c15"
+                      class="c14"
                     >
                       <svg
                         aria-hidden="true"
-                        class="c14"
+                        class="c13"
                         fill="currentColor"
                         focusable="false"
                         viewBox="0 0 24 24"
@@ -576,27 +594,27 @@ exports[`renders table when data is available 1`] = `
             </tbody>
           </table>
           <div
-            class="c16"
+            class="c15"
           >
             <button
               aria-label="Delete selected"
-              class="c17"
+              class="c16"
               disabled=""
             >
               Delete Selected
             </button>
             <div
-              class="c12"
+              class="c11"
             >
               <button
                 aria-label="Go to first page"
-                class="c18 c19"
+                class="c17 c18"
                 disabled=""
                 shape="round"
               >
                 <svg
                   aria-hidden="true"
-                  class="c14"
+                  class="c13"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -612,13 +630,13 @@ exports[`renders table when data is available 1`] = `
               </button>
               <button
                 aria-label="Go to previous page"
-                class="c18 c19"
+                class="c17 c18"
                 disabled=""
                 shape="round"
               >
                 <svg
                   aria-hidden="true"
-                  class="c14"
+                  class="c13"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -631,20 +649,20 @@ exports[`renders table when data is available 1`] = `
               </button>
               <button
                 aria-label="Go to page 1"
-                class="c20 c19"
+                class="c19 c18"
                 shape="round"
               >
                 1
               </button>
               <button
                 aria-label="Go to next page"
-                class="c18 c19"
+                class="c17 c18"
                 disabled=""
                 shape="round"
               >
                 <svg
                   aria-hidden="true"
-                  class="c14"
+                  class="c13"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -657,13 +675,13 @@ exports[`renders table when data is available 1`] = `
               </button>
               <button
                 aria-label="Go to last page"
-                class="c18 c19"
+                class="c17 c18"
                 disabled=""
                 shape="round"
               >
                 <svg
                   aria-hidden="true"
-                  class="c14"
+                  class="c13"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"

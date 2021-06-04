@@ -31,7 +31,13 @@ const Message = styled(Center)`
   color: gray;
 `;
 
-const Table = ({ dataResource, columns, pageSize = 10, options = {} }) => {
+const Table = ({
+  dataResource,
+  columns,
+  pageSize = 10,
+  options = {},
+  ...props
+}) => {
   const [data, setData] = useState(dataResource.read());
   const [filteredData, setFilteredData] = useState(dataResource.read());
   const [page, setPage] = useState(1);
@@ -93,7 +99,7 @@ const Table = ({ dataResource, columns, pageSize = 10, options = {} }) => {
         search={search}
         options={options}
       />
-      <StyledTable>
+      <StyledTable {...props}>
         <thead>
           <HeaderRow
             columns={columnNames}

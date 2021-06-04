@@ -42,7 +42,10 @@ const StyledInput = styled.input`
     outline: none;
   }
 
-  ${({ readonly }) => readonly && readonlyStyles}
+  :disabled {
+    color: inherit;
+    ${readonlyStyles}
+  }
 `;
 
 const Input = ({
@@ -51,6 +54,7 @@ const Input = ({
   error,
   autoFocus,
   role = 'textbox',
+  readonly,
   onChange,
   ...props
 }) => {
@@ -69,12 +73,13 @@ const Input = ({
   }, [ref.current, autoFocus]);
 
   return (
-    <Wrapper error={!!error} {...props}>
+    <Wrapper error={!!error} readonly={readonly} {...props}>
       <StyledInput
         ref={ref}
         type={type}
         role={role}
         value={value}
+        disabled={readonly}
         onChange={(event) => setValue(event.target.value)}
         {...props}
       />

@@ -47,6 +47,12 @@ exports[`renders header with search 1`] = `
   outline: none;
 }
 
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
+}
+
 .c0 {
   padding: 1rem;
 }

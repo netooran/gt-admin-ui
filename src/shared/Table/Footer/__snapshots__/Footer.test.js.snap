@@ -2,13 +2,13 @@
 
 exports[`Footer with select all actions renders delete selected button active 1`] = `
 .c1 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
@@ -16,6 +16,11 @@ exports[`Footer with select all actions renders delete selected button active 1`
 
 .c1 svg {
   width: 1.2rem;
+}
+
+.c1:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c1:hover {
@@ -50,22 +55,25 @@ exports[`Footer with select all actions renders delete selected button active 1`
 
 exports[`Footer with select all actions renders delete selected button disabled 1`] = `
 .c1 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 .c1 svg {
   width: 1.2rem;
+}
+
+.c1:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c1:hover {
@@ -127,24 +135,27 @@ exports[`renders footer with pagination 1`] = `
 }
 
 .c2 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
   min-width: 3rem;
   min-height: 3rem;
   padding: 0;
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 .c2 svg {
   width: 1.2rem;
+}
+
+.c2:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c2:hover {
@@ -152,13 +163,13 @@ exports[`renders footer with pagination 1`] = `
 }
 
 .c5 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -171,30 +182,12 @@ exports[`renders footer with pagination 1`] = `
   width: 1.2rem;
 }
 
+.c5:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .c5:hover {
-  opacity: 1;
-}
-
-.c6 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
-}
-
-.c6 svg {
-  width: 1.2rem;
-}
-
-.c6:hover {
   opacity: 1;
 }
 
@@ -282,14 +275,14 @@ exports[`renders footer with pagination 1`] = `
       </button>
       <button
         aria-label="Go to page 2"
-        class="c6 c3"
+        class="c2 c3"
         shape="round"
       >
         2
       </button>
       <button
         aria-label="Go to next page"
-        class="c6 c3"
+        class="c2 c3"
         shape="round"
       >
         <svg
@@ -307,7 +300,7 @@ exports[`renders footer with pagination 1`] = `
       </button>
       <button
         aria-label="Go to last page"
-        class="c6 c3"
+        class="c2 c3"
         shape="round"
       >
         <svg

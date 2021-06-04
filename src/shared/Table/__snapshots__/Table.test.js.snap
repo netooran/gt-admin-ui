@@ -14,7 +14,7 @@ exports[`Delete delete a row from table 1`] = `
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -76,122 +76,131 @@ exports[`Delete delete a row from table 1`] = `
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
+  opacity: 1;
+}
+
+.c13 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c13 svg {
+  width: 1.2rem;
+}
+
+.c13:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c13:hover {
   opacity: 1;
 }
 
 .c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c14 svg {
   width: 1.2rem;
 }
 
-.c14:hover {
-  opacity: 1;
-}
-
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c14:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
+.c14:hover {
   opacity: 1;
 }
 
-.c17 {
+.c16 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -200,30 +209,35 @@ exports[`Delete delete a row from table 1`] = `
   padding: 0;
 }
 
-.c17 svg {
+.c16 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c16 {
+.c15 {
   --button-primary-color: #1890ff;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -321,7 +335,8 @@ exports[`Delete delete a row from table 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -335,7 +350,8 @@ exports[`Delete delete a row from table 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -344,15 +360,15 @@ exports[`Delete delete a row from table 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -368,11 +384,11 @@ exports[`Delete delete a row from table 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -402,7 +418,8 @@ exports[`Delete delete a row from table 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -416,7 +433,8 @@ exports[`Delete delete a row from table 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -425,15 +443,15 @@ exports[`Delete delete a row from table 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -449,11 +467,11 @@ exports[`Delete delete a row from table 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -470,27 +488,27 @@ exports[`Delete delete a row from table 1`] = `
       </tbody>
     </table>
     <div
-      class="c13"
+      class="c12"
     >
       <button
         aria-label="Delete selected"
-        class="c14"
+        class="c13"
         disabled=""
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -506,13 +524,13 @@ exports[`Delete delete a row from table 1`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -525,20 +543,20 @@ exports[`Delete delete a row from table 1`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="c17 c16"
+          class="c16 c15"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -551,13 +569,13 @@ exports[`Delete delete a row from table 1`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -590,7 +608,7 @@ exports[`Delete delete a row from table 2`] = `
       >
         <input
           aria-label="Search"
-          class="sc-iCoGMd eBZcuw"
+          class="sc-iCoGMd blHegq"
           placeholder="Search by name, email"
           role="search"
           type="text"
@@ -668,22 +686,26 @@ exports[`Delete delete a row from table 2`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
 }
 
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
+}
+
 .c6 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
@@ -693,18 +715,23 @@ exports[`Delete delete a row from table 2`] = `
   width: 1.2rem;
 }
 
+.c6:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .c6:hover {
   opacity: 1;
 }
 
 .c8 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
@@ -713,6 +740,11 @@ exports[`Delete delete a row from table 2`] = `
 
 .c8 svg {
   width: 1.2rem;
+}
+
+.c8:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c8:hover {
@@ -755,6 +787,7 @@ exports[`Delete delete a row from table 2`] = `
               <input
                 aria-label="name"
                 class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -769,6 +802,7 @@ exports[`Delete delete a row from table 2`] = `
               <input
                 aria-label="email"
                 class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -826,7 +860,7 @@ exports[`Delete delete a row from table 2`] = `
     >
       <button
         aria-label="Delete selected"
-        class="sc-pNWdM kcxJsD"
+        class="sc-pNWdM gMEpsE"
         disabled=""
       >
         Delete Selected
@@ -836,7 +870,7 @@ exports[`Delete delete a row from table 2`] = `
       >
         <button
           aria-label="Go to first page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -858,7 +892,7 @@ exports[`Delete delete a row from table 2`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -877,14 +911,14 @@ exports[`Delete delete a row from table 2`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          class="sc-pNWdM sASSW sc-kEqXSa kIitTA"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -903,7 +937,7 @@ exports[`Delete delete a row from table 2`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -943,7 +977,7 @@ exports[`Delete delete all rows from table 1`] = `
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -1005,122 +1039,131 @@ exports[`Delete delete all rows from table 1`] = `
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
+  opacity: 1;
+}
+
+.c13 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c13 svg {
+  width: 1.2rem;
+}
+
+.c13:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c13:hover {
   opacity: 1;
 }
 
 .c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c14 svg {
   width: 1.2rem;
 }
 
-.c14:hover {
-  opacity: 1;
-}
-
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c14:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
+.c14:hover {
   opacity: 1;
 }
 
-.c17 {
+.c16 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -1129,53 +1172,35 @@ exports[`Delete delete all rows from table 1`] = `
   padding: 0;
 }
 
-.c17 svg {
+.c16 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
-.c18 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
-}
-
-.c18 svg {
-  width: 1.2rem;
-}
-
-.c18:hover {
-  opacity: 1;
-}
-
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c16 {
+.c15 {
   --button-primary-color: #1890ff;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1273,7 +1298,8 @@ exports[`Delete delete all rows from table 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -1287,7 +1313,8 @@ exports[`Delete delete all rows from table 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -1296,15 +1323,15 @@ exports[`Delete delete all rows from table 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -1320,11 +1347,11 @@ exports[`Delete delete all rows from table 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -1341,27 +1368,27 @@ exports[`Delete delete all rows from table 1`] = `
       </tbody>
     </table>
     <div
-      class="c13"
+      class="c12"
     >
       <button
         aria-label="Delete selected"
-        class="c14"
+        class="c13"
         disabled=""
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -1377,13 +1404,13 @@ exports[`Delete delete all rows from table 1`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -1396,26 +1423,26 @@ exports[`Delete delete all rows from table 1`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="c17 c16"
+          class="c16 c15"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to page 2"
-          class="c18 c16"
+          class="c14 c15"
           shape="round"
         >
           2
         </button>
         <button
           aria-label="Go to next page"
-          class="c18 c16"
+          class="c14 c15"
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -1428,12 +1455,12 @@ exports[`Delete delete all rows from table 1`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="c18 c16"
+          class="c14 c15"
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -1466,7 +1493,7 @@ exports[`Delete delete all rows from table 2`] = `
       >
         <input
           aria-label="Search"
-          class="sc-iCoGMd eBZcuw"
+          class="sc-iCoGMd blHegq"
           placeholder="Search by name, email"
           role="search"
           type="text"
@@ -1544,22 +1571,26 @@ exports[`Delete delete all rows from table 2`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
 }
 
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
+}
+
 .c6 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
@@ -1569,18 +1600,23 @@ exports[`Delete delete all rows from table 2`] = `
   width: 1.2rem;
 }
 
+.c6:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .c6:hover {
   opacity: 1;
 }
 
 .c8 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
@@ -1589,6 +1625,11 @@ exports[`Delete delete all rows from table 2`] = `
 
 .c8 svg {
   width: 1.2rem;
+}
+
+.c8:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c8:hover {
@@ -1631,6 +1672,7 @@ exports[`Delete delete all rows from table 2`] = `
               <input
                 aria-label="name"
                 class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -1645,6 +1687,7 @@ exports[`Delete delete all rows from table 2`] = `
               <input
                 aria-label="email"
                 class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -1702,7 +1745,7 @@ exports[`Delete delete all rows from table 2`] = `
     >
       <button
         aria-label="Delete selected"
-        class="sc-pNWdM kcxJsD"
+        class="sc-pNWdM gMEpsE"
         disabled=""
       >
         Delete Selected
@@ -1712,7 +1755,7 @@ exports[`Delete delete all rows from table 2`] = `
       >
         <button
           aria-label="Go to first page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -1734,7 +1777,7 @@ exports[`Delete delete all rows from table 2`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -1753,14 +1796,14 @@ exports[`Delete delete all rows from table 2`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          class="sc-pNWdM sASSW sc-kEqXSa kIitTA"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -1779,7 +1822,7 @@ exports[`Delete delete all rows from table 2`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -1819,7 +1862,7 @@ exports[`Delete delete selected row from table 1`] = `
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -1881,122 +1924,131 @@ exports[`Delete delete selected row from table 1`] = `
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
+  opacity: 1;
+}
+
+.c13 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c13 svg {
+  width: 1.2rem;
+}
+
+.c13:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c13:hover {
   opacity: 1;
 }
 
 .c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c14 svg {
   width: 1.2rem;
 }
 
-.c14:hover {
-  opacity: 1;
-}
-
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c14:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
+.c14:hover {
   opacity: 1;
 }
 
-.c17 {
+.c16 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -2005,30 +2057,35 @@ exports[`Delete delete selected row from table 1`] = `
   padding: 0;
 }
 
-.c17 svg {
+.c16 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c16 {
+.c15 {
   --button-primary-color: #1890ff;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2126,7 +2183,8 @@ exports[`Delete delete selected row from table 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -2140,7 +2198,8 @@ exports[`Delete delete selected row from table 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -2149,15 +2208,15 @@ exports[`Delete delete selected row from table 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -2173,11 +2232,11 @@ exports[`Delete delete selected row from table 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -2207,7 +2266,8 @@ exports[`Delete delete selected row from table 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -2221,7 +2281,8 @@ exports[`Delete delete selected row from table 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -2230,15 +2291,15 @@ exports[`Delete delete selected row from table 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -2254,11 +2315,11 @@ exports[`Delete delete selected row from table 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -2275,27 +2336,27 @@ exports[`Delete delete selected row from table 1`] = `
       </tbody>
     </table>
     <div
-      class="c13"
+      class="c12"
     >
       <button
         aria-label="Delete selected"
-        class="c14"
+        class="c13"
         disabled=""
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -2311,13 +2372,13 @@ exports[`Delete delete selected row from table 1`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -2330,20 +2391,20 @@ exports[`Delete delete selected row from table 1`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="c17 c16"
+          class="c16 c15"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -2356,13 +2417,13 @@ exports[`Delete delete selected row from table 1`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -2395,7 +2456,7 @@ exports[`Delete delete selected row from table 2`] = `
       >
         <input
           aria-label="Search"
-          class="sc-iCoGMd eBZcuw"
+          class="sc-iCoGMd blHegq"
           placeholder="Search by name, email"
           role="search"
           type="text"
@@ -2473,22 +2534,26 @@ exports[`Delete delete selected row from table 2`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
 }
 
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
+}
+
 .c6 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
@@ -2498,18 +2563,23 @@ exports[`Delete delete selected row from table 2`] = `
   width: 1.2rem;
 }
 
+.c6:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .c6:hover {
   opacity: 1;
 }
 
 .c8 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
@@ -2518,6 +2588,11 @@ exports[`Delete delete selected row from table 2`] = `
 
 .c8 svg {
   width: 1.2rem;
+}
+
+.c8:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c8:hover {
@@ -2560,6 +2635,7 @@ exports[`Delete delete selected row from table 2`] = `
               <input
                 aria-label="name"
                 class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -2574,6 +2650,7 @@ exports[`Delete delete selected row from table 2`] = `
               <input
                 aria-label="email"
                 class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -2631,7 +2708,7 @@ exports[`Delete delete selected row from table 2`] = `
     >
       <button
         aria-label="Delete selected"
-        class="sc-pNWdM kcxJsD"
+        class="sc-pNWdM gMEpsE"
         disabled=""
       >
         Delete Selected
@@ -2641,7 +2718,7 @@ exports[`Delete delete selected row from table 2`] = `
       >
         <button
           aria-label="Go to first page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -2663,7 +2740,7 @@ exports[`Delete delete selected row from table 2`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -2682,14 +2759,14 @@ exports[`Delete delete selected row from table 2`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          class="sc-pNWdM sASSW sc-kEqXSa kIitTA"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -2708,7 +2785,7 @@ exports[`Delete delete selected row from table 2`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -2748,7 +2825,7 @@ exports[`Modify row modify row with validation erros  1`] = `
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -2810,122 +2887,131 @@ exports[`Modify row modify row with validation erros  1`] = `
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
+  opacity: 1;
+}
+
+.c13 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c13 svg {
+  width: 1.2rem;
+}
+
+.c13:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c13:hover {
   opacity: 1;
 }
 
 .c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c14 svg {
   width: 1.2rem;
 }
 
-.c14:hover {
-  opacity: 1;
-}
-
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c14:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
+.c14:hover {
   opacity: 1;
 }
 
-.c17 {
+.c16 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -2934,30 +3020,35 @@ exports[`Modify row modify row with validation erros  1`] = `
   padding: 0;
 }
 
-.c17 svg {
+.c16 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c16 {
+.c15 {
   --button-primary-color: #1890ff;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3055,7 +3146,8 @@ exports[`Modify row modify row with validation erros  1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -3069,7 +3161,8 @@ exports[`Modify row modify row with validation erros  1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -3078,15 +3171,15 @@ exports[`Modify row modify row with validation erros  1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -3102,11 +3195,11 @@ exports[`Modify row modify row with validation erros  1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -3136,7 +3229,8 @@ exports[`Modify row modify row with validation erros  1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -3150,7 +3244,8 @@ exports[`Modify row modify row with validation erros  1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -3159,15 +3254,15 @@ exports[`Modify row modify row with validation erros  1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -3183,11 +3278,11 @@ exports[`Modify row modify row with validation erros  1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -3204,27 +3299,27 @@ exports[`Modify row modify row with validation erros  1`] = `
       </tbody>
     </table>
     <div
-      class="c13"
+      class="c12"
     >
       <button
         aria-label="Delete selected"
-        class="c14"
+        class="c13"
         disabled=""
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -3240,13 +3335,13 @@ exports[`Modify row modify row with validation erros  1`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -3259,20 +3354,20 @@ exports[`Modify row modify row with validation erros  1`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="c17 c16"
+          class="c16 c15"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -3285,13 +3380,13 @@ exports[`Modify row modify row with validation erros  1`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -3324,7 +3419,7 @@ exports[`Modify row modify row with validation erros  2`] = `
       >
         <input
           aria-label="Search"
-          class="sc-iCoGMd eBZcuw"
+          class="sc-iCoGMd blHegq"
           placeholder="Search by name, email"
           role="search"
           type="text"
@@ -3371,7 +3466,7 @@ exports[`Modify row modify row with validation erros  2`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd eBZcuw"
+                class="sc-iCoGMd blHegq"
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -3447,7 +3542,7 @@ exports[`Modify row modify row with validation erros  2`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd eBZcuw"
+                class="sc-iCoGMd blHegq"
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -3522,7 +3617,7 @@ exports[`Modify row modify row with validation erros  2`] = `
             >
               <button
                 aria-label="Save"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 .c0 {
   display: inline-block;
@@ -3545,7 +3640,7 @@ exports[`Modify row modify row with validation erros  2`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -3579,7 +3674,8 @@ exports[`Modify row modify row with validation erros  2`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -3593,7 +3689,8 @@ exports[`Modify row modify row with validation erros  2`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -3606,7 +3703,7 @@ exports[`Modify row modify row with validation erros  2`] = `
             >
               <button
                 aria-label="Edit"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 <svg
                   aria-hidden="true"
@@ -3626,7 +3723,7 @@ exports[`Modify row modify row with validation erros  2`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -3651,7 +3748,7 @@ exports[`Modify row modify row with validation erros  2`] = `
     >
       <button
         aria-label="Delete selected"
-        class="sc-pNWdM kcxJsD"
+        class="sc-pNWdM gMEpsE"
         disabled=""
       >
         Delete Selected
@@ -3661,7 +3758,7 @@ exports[`Modify row modify row with validation erros  2`] = `
       >
         <button
           aria-label="Go to first page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -3683,7 +3780,7 @@ exports[`Modify row modify row with validation erros  2`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -3702,14 +3799,14 @@ exports[`Modify row modify row with validation erros  2`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          class="sc-pNWdM sASSW sc-kEqXSa kIitTA"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -3728,7 +3825,7 @@ exports[`Modify row modify row with validation erros  2`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -3768,7 +3865,7 @@ exports[`Modify row modify row without validation erros  1`] = `
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -3830,122 +3927,131 @@ exports[`Modify row modify row without validation erros  1`] = `
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
+  opacity: 1;
+}
+
+.c13 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c13 svg {
+  width: 1.2rem;
+}
+
+.c13:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c13:hover {
   opacity: 1;
 }
 
 .c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c14 svg {
   width: 1.2rem;
 }
 
-.c14:hover {
-  opacity: 1;
-}
-
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c14:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
+.c14:hover {
   opacity: 1;
 }
 
-.c17 {
+.c16 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -3954,30 +4060,35 @@ exports[`Modify row modify row without validation erros  1`] = `
   padding: 0;
 }
 
-.c17 svg {
+.c16 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c16 {
+.c15 {
   --button-primary-color: #1890ff;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4075,7 +4186,8 @@ exports[`Modify row modify row without validation erros  1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -4089,7 +4201,8 @@ exports[`Modify row modify row without validation erros  1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -4098,15 +4211,15 @@ exports[`Modify row modify row without validation erros  1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -4122,11 +4235,11 @@ exports[`Modify row modify row without validation erros  1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -4156,7 +4269,8 @@ exports[`Modify row modify row without validation erros  1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -4170,7 +4284,8 @@ exports[`Modify row modify row without validation erros  1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -4179,15 +4294,15 @@ exports[`Modify row modify row without validation erros  1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -4203,11 +4318,11 @@ exports[`Modify row modify row without validation erros  1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -4224,27 +4339,27 @@ exports[`Modify row modify row without validation erros  1`] = `
       </tbody>
     </table>
     <div
-      class="c13"
+      class="c12"
     >
       <button
         aria-label="Delete selected"
-        class="c14"
+        class="c13"
         disabled=""
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -4260,13 +4375,13 @@ exports[`Modify row modify row without validation erros  1`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -4279,20 +4394,20 @@ exports[`Modify row modify row without validation erros  1`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="c17 c16"
+          class="c16 c15"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -4305,13 +4420,13 @@ exports[`Modify row modify row without validation erros  1`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -4344,7 +4459,7 @@ exports[`Modify row modify row without validation erros  2`] = `
       >
         <input
           aria-label="Search"
-          class="sc-iCoGMd eBZcuw"
+          class="sc-iCoGMd blHegq"
           placeholder="Search by name, email"
           role="search"
           type="text"
@@ -4391,7 +4506,8 @@ exports[`Modify row modify row without validation erros  2`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alexander"
@@ -4405,7 +4521,8 @@ exports[`Modify row modify row without validation erros  2`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alexander@protonmail.com"
@@ -4418,7 +4535,7 @@ exports[`Modify row modify row without validation erros  2`] = `
             >
               <button
                 aria-label="Edit"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 .c0 {
   display: inline-block;
@@ -4444,7 +4561,7 @@ exports[`Modify row modify row without validation erros  2`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -4478,7 +4595,8 @@ exports[`Modify row modify row without validation erros  2`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -4492,7 +4610,8 @@ exports[`Modify row modify row without validation erros  2`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -4505,7 +4624,7 @@ exports[`Modify row modify row without validation erros  2`] = `
             >
               <button
                 aria-label="Edit"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 <svg
                   aria-hidden="true"
@@ -4525,7 +4644,7 @@ exports[`Modify row modify row without validation erros  2`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -4550,7 +4669,7 @@ exports[`Modify row modify row without validation erros  2`] = `
     >
       <button
         aria-label="Delete selected"
-        class="sc-pNWdM kcxJsD"
+        class="sc-pNWdM gMEpsE"
         disabled=""
       >
         Delete Selected
@@ -4560,7 +4679,7 @@ exports[`Modify row modify row without validation erros  2`] = `
       >
         <button
           aria-label="Go to first page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -4582,7 +4701,7 @@ exports[`Modify row modify row without validation erros  2`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -4601,14 +4720,14 @@ exports[`Modify row modify row without validation erros  2`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          class="sc-pNWdM sASSW sc-kEqXSa kIitTA"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -4627,7 +4746,7 @@ exports[`Modify row modify row without validation erros  2`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -4667,7 +4786,7 @@ exports[`Select select all rows 1`] = `
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -4729,122 +4848,131 @@ exports[`Select select all rows 1`] = `
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
+  opacity: 1;
+}
+
+.c13 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c13 svg {
+  width: 1.2rem;
+}
+
+.c13:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c13:hover {
   opacity: 1;
 }
 
 .c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c14 svg {
   width: 1.2rem;
 }
 
-.c14:hover {
-  opacity: 1;
-}
-
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c14:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
+.c14:hover {
   opacity: 1;
 }
 
-.c17 {
+.c16 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -4853,30 +4981,35 @@ exports[`Select select all rows 1`] = `
   padding: 0;
 }
 
-.c17 svg {
+.c16 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c16 {
+.c15 {
   --button-primary-color: #1890ff;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -4974,7 +5107,8 @@ exports[`Select select all rows 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -4988,7 +5122,8 @@ exports[`Select select all rows 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -4997,15 +5132,15 @@ exports[`Select select all rows 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -5021,11 +5156,11 @@ exports[`Select select all rows 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -5055,7 +5190,8 @@ exports[`Select select all rows 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -5069,7 +5205,8 @@ exports[`Select select all rows 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -5078,15 +5215,15 @@ exports[`Select select all rows 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -5102,11 +5239,11 @@ exports[`Select select all rows 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -5123,27 +5260,27 @@ exports[`Select select all rows 1`] = `
       </tbody>
     </table>
     <div
-      class="c13"
+      class="c12"
     >
       <button
         aria-label="Delete selected"
-        class="c14"
+        class="c13"
         disabled=""
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -5159,13 +5296,13 @@ exports[`Select select all rows 1`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -5178,20 +5315,20 @@ exports[`Select select all rows 1`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="c17 c16"
+          class="c16 c15"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -5204,13 +5341,13 @@ exports[`Select select all rows 1`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -5243,7 +5380,7 @@ exports[`Select select all rows 2`] = `
       >
         <input
           aria-label="Search"
-          class="sc-iCoGMd eBZcuw"
+          class="sc-iCoGMd blHegq"
           placeholder="Search by name, email"
           role="search"
           type="text"
@@ -5290,7 +5427,8 @@ exports[`Select select all rows 2`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -5304,7 +5442,8 @@ exports[`Select select all rows 2`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -5317,7 +5456,7 @@ exports[`Select select all rows 2`] = `
             >
               <button
                 aria-label="Edit"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 <svg
                   aria-hidden="true"
@@ -5337,7 +5476,7 @@ exports[`Select select all rows 2`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -5371,7 +5510,8 @@ exports[`Select select all rows 2`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -5385,7 +5525,8 @@ exports[`Select select all rows 2`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -5398,7 +5539,7 @@ exports[`Select select all rows 2`] = `
             >
               <button
                 aria-label="Edit"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 <svg
                   aria-hidden="true"
@@ -5418,7 +5559,7 @@ exports[`Select select all rows 2`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -5443,7 +5584,7 @@ exports[`Select select all rows 2`] = `
     >
       <button
         aria-label="Delete selected"
-        class="sc-pNWdM gAlEYh"
+        class="sc-pNWdM gMEpsE"
       >
         Delete Selected
       </button>
@@ -5452,7 +5593,7 @@ exports[`Select select all rows 2`] = `
       >
         <button
           aria-label="Go to first page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -5474,7 +5615,7 @@ exports[`Select select all rows 2`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -5493,14 +5634,14 @@ exports[`Select select all rows 2`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          class="sc-pNWdM sASSW sc-kEqXSa kIitTA"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -5519,7 +5660,7 @@ exports[`Select select all rows 2`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -5558,7 +5699,7 @@ exports[`Select select all rows 3`] = `
       >
         <input
           aria-label="Search"
-          class="sc-iCoGMd eBZcuw"
+          class="sc-iCoGMd blHegq"
           placeholder="Search by name, email"
           role="search"
           type="text"
@@ -5605,7 +5746,8 @@ exports[`Select select all rows 3`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -5619,7 +5761,8 @@ exports[`Select select all rows 3`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -5632,7 +5775,7 @@ exports[`Select select all rows 3`] = `
             >
               <button
                 aria-label="Edit"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 <svg
                   aria-hidden="true"
@@ -5652,7 +5795,7 @@ exports[`Select select all rows 3`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -5686,7 +5829,8 @@ exports[`Select select all rows 3`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -5700,7 +5844,8 @@ exports[`Select select all rows 3`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -5713,7 +5858,7 @@ exports[`Select select all rows 3`] = `
             >
               <button
                 aria-label="Edit"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 <svg
                   aria-hidden="true"
@@ -5733,7 +5878,7 @@ exports[`Select select all rows 3`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -5758,7 +5903,7 @@ exports[`Select select all rows 3`] = `
     >
       <button
         aria-label="Delete selected"
-        class="sc-pNWdM kcxJsD"
+        class="sc-pNWdM gMEpsE"
         disabled=""
       >
         Delete Selected
@@ -5768,7 +5913,7 @@ exports[`Select select all rows 3`] = `
       >
         <button
           aria-label="Go to first page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -5790,7 +5935,7 @@ exports[`Select select all rows 3`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -5809,14 +5954,14 @@ exports[`Select select all rows 3`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          class="sc-pNWdM sASSW sc-kEqXSa kIitTA"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -5835,7 +5980,7 @@ exports[`Select select all rows 3`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -5875,7 +6020,7 @@ exports[`Select unselect a row from all selection 1`] = `
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -5937,99 +6082,131 @@ exports[`Select unselect a row from all selection 1`] = `
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
   opacity: 1;
 }
 
-.c16 {
+.c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c14 svg {
+  width: 1.2rem;
+}
+
+.c14:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c14:hover {
+  opacity: 1;
+}
+
+.c15 {
   --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
   background-color: var(--button-primary-color);
   color: white;
   min-width: 3rem;
   min-height: 3rem;
   padding: 0;
+}
+
+.c15 svg {
+  width: 1.2rem;
+}
+
+.c15:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c16 svg {
-  width: 1.2rem;
-}
-
-.c16:hover {
+.c15:hover {
   opacity: 1;
 }
 
-.c18 {
+.c17 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -6038,51 +6215,35 @@ exports[`Select unselect a row from all selection 1`] = `
   padding: 0;
 }
 
-.c18 svg {
+.c17 svg {
   width: 1.2rem;
 }
 
-.c18:hover {
+.c17:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c17:hover {
   opacity: 1;
 }
 
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
-  background-color: var(--button-primary-color);
-  color: white;
-}
-
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
-  opacity: 1;
-}
-
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c17 {
+.c16 {
   --button-primary-color: #1890ff;
 }
 
-.c14 {
+.c13 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6102,12 +6263,12 @@ exports[`Select unselect a row from all selection 1`] = `
   background-color: var(--row-active-bg);
 }
 
-.c13 {
+.c12 {
   --row-active-bg: #f2f2f2;
   background-color: var(--row-active-bg);
 }
 
-.c13:hover {
+.c12:hover {
   background-color: var(--row-active-bg);
 }
 
@@ -6189,7 +6350,8 @@ exports[`Select unselect a row from all selection 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -6203,7 +6365,8 @@ exports[`Select unselect a row from all selection 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -6212,15 +6375,15 @@ exports[`Select unselect a row from all selection 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -6236,11 +6399,11 @@ exports[`Select unselect a row from all selection 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -6255,7 +6418,7 @@ exports[`Select unselect a row from all selection 1`] = `
           </td>
         </tr>
         <tr
-          class="c13"
+          class="c12"
         >
           <td>
             <input
@@ -6270,7 +6433,8 @@ exports[`Select unselect a row from all selection 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -6284,7 +6448,8 @@ exports[`Select unselect a row from all selection 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -6293,15 +6458,15 @@ exports[`Select unselect a row from all selection 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -6317,11 +6482,11 @@ exports[`Select unselect a row from all selection 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -6338,26 +6503,26 @@ exports[`Select unselect a row from all selection 1`] = `
       </tbody>
     </table>
     <div
-      class="c14"
+      class="c13"
     >
       <button
         aria-label="Delete selected"
-        class="c15"
+        class="c14"
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c16 c17"
+          class="c15 c16"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -6373,13 +6538,13 @@ exports[`Select unselect a row from all selection 1`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="c16 c17"
+          class="c15 c16"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -6392,20 +6557,20 @@ exports[`Select unselect a row from all selection 1`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="c18 c17"
+          class="c17 c16"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="c16 c17"
+          class="c15 c16"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -6418,13 +6583,13 @@ exports[`Select unselect a row from all selection 1`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="c16 c17"
+          class="c15 c16"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -6538,7 +6703,7 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -6600,122 +6765,131 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
+  opacity: 1;
+}
+
+.c13 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c13 svg {
+  width: 1.2rem;
+}
+
+.c13:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c13:hover {
   opacity: 1;
 }
 
 .c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c14 svg {
   width: 1.2rem;
 }
 
-.c14:hover {
-  opacity: 1;
-}
-
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c14:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
+.c14:hover {
   opacity: 1;
 }
 
-.c17 {
+.c16 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -6724,30 +6898,35 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
   padding: 0;
 }
 
-.c17 svg {
+.c16 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c16 {
+.c15 {
   --button-primary-color: #1890ff;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -6845,7 +7024,8 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -6859,7 +7039,8 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -6868,15 +7049,15 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -6892,11 +7073,11 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -6926,7 +7107,8 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -6940,7 +7122,8 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -6949,15 +7132,15 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -6973,11 +7156,11 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -6994,27 +7177,27 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
       </tbody>
     </table>
     <div
-      class="c13"
+      class="c12"
     >
       <button
         aria-label="Delete selected"
-        class="c14"
+        class="c13"
         disabled=""
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -7030,13 +7213,13 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
         </button>
         <button
           aria-label="Go to previous page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -7049,20 +7232,20 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
         </button>
         <button
           aria-label="Go to page 1"
-          class="c17 c16"
+          class="c16 c15"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -7075,13 +7258,13 @@ exports[`renders paginated table with edit, delete, search & select functions 1`
         </button>
         <button
           aria-label="Go to last page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -7143,12 +7326,16 @@ exports[`renders plain table 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c6:focus {
   outline: none;
+}
+
+.c6:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -7235,6 +7422,7 @@ exports[`renders plain table 1`] = `
               <input
                 aria-label="name"
                 class="c6"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -7249,6 +7437,7 @@ exports[`renders plain table 1`] = `
               <input
                 aria-label="email"
                 class="c6"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -7272,6 +7461,7 @@ exports[`renders plain table 1`] = `
               <input
                 aria-label="name"
                 class="c6"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -7286,6 +7476,7 @@ exports[`renders plain table 1`] = `
               <input
                 aria-label="email"
                 class="c6"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -7321,7 +7512,7 @@ exports[`search table 1`] = `
   flex-direction: row;
 }
 
-.c11 {
+.c10 {
   display: inline-block;
   vertical-align: middle;
   overflow: hidden;
@@ -7383,122 +7574,131 @@ exports[`search table 1`] = `
   outline: none;
 }
 
-.c8 {
-  border-style: none;
-  border-radius: 0.2rem;
-  padding: 0.5rem;
-  width: 100%;
+.c4:disabled {
+  color: inherit;
   background-color: transparent;
   pointer-events: none;
-}
-
-.c8:focus {
-  outline: none;
 }
 
 .c0 {
   padding: 1rem;
 }
 
-.c10 {
+.c9 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c10 svg {
+.c9 svg {
   width: 1.2rem;
 }
 
-.c10:hover {
+.c9:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c9:hover {
   opacity: 1;
 }
 
-.c12 {
+.c11 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
 }
 
-.c12 svg {
+.c11 svg {
   width: 1.2rem;
 }
 
-.c12:hover {
+.c11:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c11:hover {
+  opacity: 1;
+}
+
+.c13 {
+  --button-primary-color: #000000;
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+  --button-primary-color: red;
+  background-color: var(--button-primary-color);
+  color: white;
+}
+
+.c13 svg {
+  width: 1.2rem;
+}
+
+.c13:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c13:hover {
   opacity: 1;
 }
 
 .c14 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
-  --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
+  min-width: 3rem;
+  min-height: 3rem;
+  padding: 0;
 }
 
 .c14 svg {
   width: 1.2rem;
 }
 
-.c14:hover {
-  opacity: 1;
-}
-
-.c15 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c14:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c15 svg {
-  width: 1.2rem;
-}
-
-.c15:hover {
+.c14:hover {
   opacity: 1;
 }
 
-.c17 {
+.c16 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -7507,30 +7707,35 @@ exports[`search table 1`] = `
   padding: 0;
 }
 
-.c17 svg {
+.c16 svg {
   width: 1.2rem;
 }
 
-.c17:hover {
+.c16:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.c16:hover {
   opacity: 1;
 }
 
-.c9 {
+.c8 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c9 button {
+.c8 button {
   margin-right: 0.5rem;
 }
 
-.c16 {
+.c15 {
   --button-primary-color: #1890ff;
 }
 
-.c13 {
+.c12 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -7628,7 +7833,8 @@ exports[`search table 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -7642,7 +7848,8 @@ exports[`search table 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -7651,15 +7858,15 @@ exports[`search table 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -7675,11 +7882,11 @@ exports[`search table 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -7709,7 +7916,8 @@ exports[`search table 1`] = `
             >
               <input
                 aria-label="name"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Chris"
@@ -7723,7 +7931,8 @@ exports[`search table 1`] = `
             >
               <input
                 aria-label="email"
-                class="c8"
+                class="c4"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="chris@protonmail.com"
@@ -7732,15 +7941,15 @@ exports[`search table 1`] = `
           </td>
           <td>
             <div
-              class="c9"
+              class="c8"
             >
               <button
                 aria-label="Edit"
-                class="c10"
+                class="c9"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -7756,11 +7965,11 @@ exports[`search table 1`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="c12"
+                class="c11"
               >
                 <svg
                   aria-hidden="true"
-                  class="c11"
+                  class="c10"
                   fill="currentColor"
                   focusable="false"
                   viewBox="0 0 24 24"
@@ -7777,27 +7986,27 @@ exports[`search table 1`] = `
       </tbody>
     </table>
     <div
-      class="c13"
+      class="c12"
     >
       <button
         aria-label="Delete selected"
-        class="c14"
+        class="c13"
         disabled=""
       >
         Delete Selected
       </button>
       <div
-        class="c9"
+        class="c8"
       >
         <button
           aria-label="Go to first page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -7813,13 +8022,13 @@ exports[`search table 1`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -7832,20 +8041,20 @@ exports[`search table 1`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="c17 c16"
+          class="c16 c15"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -7858,13 +8067,13 @@ exports[`search table 1`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="c15 c16"
+          class="c14 c15"
           disabled=""
           shape="round"
         >
           <svg
             aria-hidden="true"
-            class="c11"
+            class="c10"
             fill="currentColor"
             focusable="false"
             viewBox="0 0 24 24"
@@ -7897,7 +8106,7 @@ exports[`search table 2`] = `
       >
         <input
           aria-label="Search"
-          class="sc-iCoGMd eBZcuw"
+          class="sc-iCoGMd blHegq"
           placeholder="Search by name, email"
           role="search"
           type="text"
@@ -7944,7 +8153,8 @@ exports[`search table 2`] = `
             >
               <input
                 aria-label="name"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="Alex"
@@ -7958,7 +8168,8 @@ exports[`search table 2`] = `
             >
               <input
                 aria-label="email"
-                class="sc-iCoGMd fUzglB"
+                class="sc-iCoGMd blHegq"
+                disabled=""
                 role="textbox"
                 type="text"
                 value="alex@protonmail.com"
@@ -7971,7 +8182,7 @@ exports[`search table 2`] = `
             >
               <button
                 aria-label="Edit"
-                class="sc-pNWdM lkTBsz"
+                class="sc-pNWdM cxCQoq"
               >
                 <svg
                   aria-hidden="true"
@@ -7991,7 +8202,7 @@ exports[`search table 2`] = `
               </button>
               <button
                 aria-label="Delete"
-                class="sc-pNWdM jtKaeu"
+                class="sc-pNWdM evagML"
               >
                 <svg
                   aria-hidden="true"
@@ -8016,7 +8227,7 @@ exports[`search table 2`] = `
     >
       <button
         aria-label="Delete selected"
-        class="sc-pNWdM kcxJsD"
+        class="sc-pNWdM gMEpsE"
         disabled=""
       >
         Delete Selected
@@ -8026,7 +8237,7 @@ exports[`search table 2`] = `
       >
         <button
           aria-label="Go to first page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -8048,7 +8259,7 @@ exports[`search table 2`] = `
         </button>
         <button
           aria-label="Go to previous page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -8067,14 +8278,14 @@ exports[`search table 2`] = `
         </button>
         <button
           aria-label="Go to page 1"
-          class="sc-pNWdM fQxaEb sc-kEqXSa kIitTA"
+          class="sc-pNWdM sASSW sc-kEqXSa kIitTA"
           shape="round"
         >
           1
         </button>
         <button
           aria-label="Go to next page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >
@@ -8093,7 +8304,7 @@ exports[`search table 2`] = `
         </button>
         <button
           aria-label="Go to last page"
-          class="sc-pNWdM hOrTcH sc-kEqXSa kIitTA"
+          class="sc-pNWdM iuPrnM sc-kEqXSa kIitTA"
           disabled=""
           shape="round"
         >

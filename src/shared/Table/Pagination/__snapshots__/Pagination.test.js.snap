@@ -8,24 +8,27 @@ exports[`renders pagination with 1st page active 1`] = `
 }
 
 .c1 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
   min-width: 3rem;
   min-height: 3rem;
   padding: 0;
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 .c1 svg {
   width: 1.2rem;
+}
+
+.c1:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c1:hover {
@@ -33,13 +36,13 @@ exports[`renders pagination with 1st page active 1`] = `
 }
 
 .c4 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -52,30 +55,12 @@ exports[`renders pagination with 1st page active 1`] = `
   width: 1.2rem;
 }
 
+.c4:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .c4:hover {
-  opacity: 1;
-}
-
-.c5 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
-}
-
-.c5 svg {
-  width: 1.2rem;
-}
-
-.c5:hover {
   opacity: 1;
 }
 
@@ -148,35 +133,35 @@ exports[`renders pagination with 1st page active 1`] = `
     </button>
     <button
       aria-label="Go to page 2"
-      class="c5 c2"
+      class="c1 c2"
       shape="round"
     >
       2
     </button>
     <button
       aria-label="Go to page 3"
-      class="c5 c2"
+      class="c1 c2"
       shape="round"
     >
       3
     </button>
     <button
       aria-label="Go to page 4"
-      class="c5 c2"
+      class="c1 c2"
       shape="round"
     >
       4
     </button>
     <button
       aria-label="Go to page 5"
-      class="c5 c2"
+      class="c1 c2"
       shape="round"
     >
       5
     </button>
     <button
       aria-label="Go to next page"
-      class="c5 c2"
+      class="c1 c2"
       shape="round"
     >
       <svg
@@ -194,7 +179,7 @@ exports[`renders pagination with 1st page active 1`] = `
     </button>
     <button
       aria-label="Go to last page"
-      class="c5 c2"
+      class="c1 c2"
       shape="round"
     >
       <svg
@@ -225,13 +210,13 @@ exports[`renders pagination with a page greater than default pages to display (5
 }
 
 .c1 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
   min-width: 3rem;
@@ -243,18 +228,23 @@ exports[`renders pagination with a page greater than default pages to display (5
   width: 1.2rem;
 }
 
+.c1:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .c1:hover {
   opacity: 1;
 }
 
 .c4 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -265,6 +255,11 @@ exports[`renders pagination with a page greater than default pages to display (5
 
 .c4 svg {
   width: 1.2rem;
+}
+
+.c4:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c4:hover {
@@ -415,13 +410,13 @@ exports[`renders pagination with a page in the middle active 1`] = `
 }
 
 .c1 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
   min-width: 3rem;
@@ -433,18 +428,23 @@ exports[`renders pagination with a page in the middle active 1`] = `
   width: 1.2rem;
 }
 
+.c1:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .c1:hover {
   opacity: 1;
 }
 
 .c4 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -455,6 +455,11 @@ exports[`renders pagination with a page in the middle active 1`] = `
 
 .c4 svg {
   width: 1.2rem;
+}
+
+.c4:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c4:hover {
@@ -605,13 +610,13 @@ exports[`renders pagination with last page active 1`] = `
 }
 
 .c1 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
   min-width: 3rem;
@@ -623,18 +628,23 @@ exports[`renders pagination with last page active 1`] = `
   width: 1.2rem;
 }
 
+.c1:disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
 .c1:hover {
   opacity: 1;
 }
 
 .c4 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -647,32 +657,12 @@ exports[`renders pagination with last page active 1`] = `
   width: 1.2rem;
 }
 
-.c4:hover {
-  opacity: 1;
-}
-
-.c5 {
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
-  --button-primary-color: #000000;
-  background-color: var(--button-primary-color);
-  color: white;
-  min-width: 3rem;
-  min-height: 3rem;
-  padding: 0;
+.c4:disabled {
   opacity: 0.4;
   pointer-events: none;
 }
 
-.c5 svg {
-  width: 1.2rem;
-}
-
-.c5:hover {
+.c4:hover {
   opacity: 1;
 }
 
@@ -771,7 +761,7 @@ exports[`renders pagination with last page active 1`] = `
     </button>
     <button
       aria-label="Go to next page"
-      class="c5 c2"
+      class="c1 c2"
       disabled=""
       shape="round"
     >
@@ -790,7 +780,7 @@ exports[`renders pagination with last page active 1`] = `
     </button>
     <button
       aria-label="Go to last page"
-      class="c5 c2"
+      class="c1 c2"
       disabled=""
       shape="round"
     >

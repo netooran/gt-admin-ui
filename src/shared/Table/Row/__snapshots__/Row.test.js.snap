@@ -19,13 +19,13 @@ exports[`renders deletable row 1`] = `
 }
 
 .c6 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
@@ -34,6 +34,11 @@ exports[`renders deletable row 1`] = `
 
 .c6 svg {
   width: 1.2rem;
+}
+
+.c6:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c6:hover {
@@ -81,12 +86,16 @@ exports[`renders deletable row 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
+}
+
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -109,6 +118,7 @@ exports[`renders deletable row 1`] = `
         <input
           aria-label="name"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex"
@@ -123,6 +133,7 @@ exports[`renders deletable row 1`] = `
         <input
           aria-label="email"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -175,13 +186,13 @@ exports[`renders editble row handles validation error on save 1`] = `
 }
 
 .c6 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
@@ -189,6 +200,11 @@ exports[`renders editble row handles validation error on save 1`] = `
 
 .c6 svg {
   width: 1.2rem;
+}
+
+.c6:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c6:hover {
@@ -236,12 +252,16 @@ exports[`renders editble row handles validation error on save 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
+}
+
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -264,6 +284,7 @@ exports[`renders editble row handles validation error on save 1`] = `
         <input
           aria-label="name"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex"
@@ -278,6 +299,7 @@ exports[`renders editble row handles validation error on save 1`] = `
         <input
           aria-label="email"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -326,7 +348,7 @@ exports[`renders editble row handles validation error on save 2`] = `
       >
         <input
           aria-label="name"
-          class="sc-pNWdM hrqpEL"
+          class="sc-pNWdM ckmRzF"
           role="textbox"
           type="text"
           value="Alex"
@@ -340,7 +362,7 @@ exports[`renders editble row handles validation error on save 2`] = `
       >
         <input
           aria-label="email"
-          class="sc-pNWdM hrqpEL"
+          class="sc-pNWdM ckmRzF"
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -353,7 +375,7 @@ exports[`renders editble row handles validation error on save 2`] = `
       >
         <button
           aria-label="Save"
-          class="sc-gtsrHT DqywN"
+          class="sc-gtsrHT bvpBxk"
         >
           .c0 {
   display: inline-block;
@@ -392,7 +414,7 @@ exports[`renders editble row handles validation error on save 3`] = `
       >
         <input
           aria-label="name"
-          class="sc-pNWdM hrqpEL"
+          class="sc-pNWdM ckmRzF"
           role="textbox"
           type="text"
           value="Alex"
@@ -468,7 +490,7 @@ exports[`renders editble row handles validation error on save 3`] = `
       >
         <input
           aria-label="email"
-          class="sc-pNWdM hrqpEL"
+          class="sc-pNWdM ckmRzF"
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -481,7 +503,7 @@ exports[`renders editble row handles validation error on save 3`] = `
       >
         <button
           aria-label="Save"
-          class="sc-gtsrHT DqywN"
+          class="sc-gtsrHT bvpBxk"
         >
           <svg
             aria-hidden="true"
@@ -521,13 +543,13 @@ exports[`renders editble row renders row in edit mode 1`] = `
 }
 
 .c6 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
@@ -535,6 +557,11 @@ exports[`renders editble row renders row in edit mode 1`] = `
 
 .c6 svg {
   width: 1.2rem;
+}
+
+.c6:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c6:hover {
@@ -582,12 +609,16 @@ exports[`renders editble row renders row in edit mode 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
+}
+
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -610,6 +641,7 @@ exports[`renders editble row renders row in edit mode 1`] = `
         <input
           aria-label="name"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex"
@@ -624,6 +656,7 @@ exports[`renders editble row renders row in edit mode 1`] = `
         <input
           aria-label="email"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -672,7 +705,7 @@ exports[`renders editble row renders row in edit mode 2`] = `
       >
         <input
           aria-label="name"
-          class="sc-pNWdM hrqpEL"
+          class="sc-pNWdM ckmRzF"
           role="textbox"
           type="text"
           value="Alex"
@@ -686,7 +719,7 @@ exports[`renders editble row renders row in edit mode 2`] = `
       >
         <input
           aria-label="email"
-          class="sc-pNWdM hrqpEL"
+          class="sc-pNWdM ckmRzF"
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -699,7 +732,7 @@ exports[`renders editble row renders row in edit mode 2`] = `
       >
         <button
           aria-label="Save"
-          class="sc-gtsrHT DqywN"
+          class="sc-gtsrHT bvpBxk"
         >
           .c0 {
   display: inline-block;
@@ -745,13 +778,13 @@ exports[`renders editble row renders row in read only mode 1`] = `
 }
 
 .c6 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
@@ -759,6 +792,11 @@ exports[`renders editble row renders row in read only mode 1`] = `
 
 .c6 svg {
   width: 1.2rem;
+}
+
+.c6:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c6:hover {
@@ -806,12 +844,16 @@ exports[`renders editble row renders row in read only mode 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
+}
+
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -834,6 +876,7 @@ exports[`renders editble row renders row in read only mode 1`] = `
         <input
           aria-label="name"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex"
@@ -848,6 +891,7 @@ exports[`renders editble row renders row in read only mode 1`] = `
         <input
           aria-label="email"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -903,13 +947,13 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
 }
 
 .c6 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
@@ -917,6 +961,11 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
 
 .c6 svg {
   width: 1.2rem;
+}
+
+.c6:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c6:hover {
@@ -964,12 +1013,16 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
+}
+
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -992,6 +1045,7 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
         <input
           aria-label="name"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex"
@@ -1006,6 +1060,7 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
         <input
           aria-label="email"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -1054,7 +1109,7 @@ exports[`renders editble row saves row successfully if values are valid 2`] = `
       >
         <input
           aria-label="name"
-          class="sc-pNWdM hrqpEL"
+          class="sc-pNWdM ckmRzF"
           role="textbox"
           type="text"
           value="Alex"
@@ -1068,7 +1123,7 @@ exports[`renders editble row saves row successfully if values are valid 2`] = `
       >
         <input
           aria-label="email"
-          class="sc-pNWdM hrqpEL"
+          class="sc-pNWdM ckmRzF"
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -1081,7 +1136,7 @@ exports[`renders editble row saves row successfully if values are valid 2`] = `
       >
         <button
           aria-label="Save"
-          class="sc-gtsrHT DqywN"
+          class="sc-gtsrHT bvpBxk"
         >
           .c0 {
   display: inline-block;
@@ -1120,7 +1175,8 @@ exports[`renders editble row saves row successfully if values are valid 3`] = `
       >
         <input
           aria-label="name"
-          class="sc-pNWdM cEMaFq"
+          class="sc-pNWdM ckmRzF"
+          disabled=""
           role="textbox"
           type="text"
           value="Alexander"
@@ -1134,7 +1190,8 @@ exports[`renders editble row saves row successfully if values are valid 3`] = `
       >
         <input
           aria-label="email"
-          class="sc-pNWdM cEMaFq"
+          class="sc-pNWdM ckmRzF"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -1147,7 +1204,7 @@ exports[`renders editble row saves row successfully if values are valid 3`] = `
       >
         <button
           aria-label="Edit"
-          class="sc-gtsrHT DqywN"
+          class="sc-gtsrHT bvpBxk"
         >
           .c0 {
   display: inline-block;
@@ -1230,12 +1287,16 @@ exports[`renders row 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
+}
+
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -1258,6 +1319,7 @@ exports[`renders row 1`] = `
         <input
           aria-label="name"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex"
@@ -1272,6 +1334,7 @@ exports[`renders row 1`] = `
         <input
           aria-label="email"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -1340,12 +1403,16 @@ exports[`renders selectable row where current selection is false 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
+}
+
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -1374,6 +1441,7 @@ exports[`renders selectable row where current selection is false 1`] = `
         <input
           aria-label="name"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex"
@@ -1388,6 +1456,7 @@ exports[`renders selectable row where current selection is false 1`] = `
         <input
           aria-label="email"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -1456,12 +1525,16 @@ exports[`renders selectable row where current selection is true 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
-  background-color: transparent;
-  pointer-events: none;
 }
 
 .c4:focus {
   outline: none;
+}
+
+.c4:disabled {
+  color: inherit;
+  background-color: transparent;
+  pointer-events: none;
 }
 
 .c0 {
@@ -1492,6 +1565,7 @@ exports[`renders selectable row where current selection is true 1`] = `
         <input
           aria-label="name"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex"
@@ -1506,6 +1580,7 @@ exports[`renders selectable row where current selection is true 1`] = `
         <input
           aria-label="email"
           class="c4"
+          disabled=""
           role="textbox"
           type="text"
           value="Alex@protonmail.com"

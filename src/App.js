@@ -48,6 +48,7 @@ const App = () => {
           <ErrorBoundary>
             <Suspense fallback={<Spinner />}>
               <Table
+                aria-label="Users table"
                 dataResource={userResource}
                 columns={columns}
                 options={options}

@@ -3,6 +3,30 @@ import styled, { css } from 'styled-components';
 
 const defaultStyles = css`
   --button-primary-color: #000000;
+
+  border: none;
+  cursor: pointer;
+  opacity: 0.7;
+  font-weight: bold;
+  padding: 0.5rem 1.5rem;
+  border-radius: 3rem;
+
+  svg {
+    width: 1.2rem;
+  }
+`;
+
+const disabledStyles = css`
+  :disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+`;
+
+const hoverStyles = css`
+  :hover {
+    opacity: 1;
+  }
 `;
 
 const dangerStyles = css`
@@ -31,11 +55,6 @@ const iconStyles = css`
   padding: 0;
 `;
 
-const disabledStyles = css`
-  opacity: 0.4;
-  pointer-events: none;
-`;
-
 const roundStyles = css`
   min-width: 3rem;
   min-height: 3rem;
@@ -43,29 +62,16 @@ const roundStyles = css`
 `;
 
 const StyledButton = styled.button`
-  border: none;
-  cursor: pointer;
-  opacity: 0.7;
-  font-weight: bold;
-  padding: 0.5rem 1.5rem;
-  border-radius: 3rem;
+  ${defaultStyles}
+  ${disabledStyles}
+  ${hoverStyles}
 
-  svg {
-    width: 1.2rem;
-  }
-
-  :hover {
-    opacity: 1;
-  }
-
-  ${() => defaultStyles}
   ${({ importance }) => importance === 'danger' && dangerStyles}
   ${({ variant }) => variant === 'solid' && solidStyles}
   ${({ variant }) => variant === 'ghost' && ghostStyles}
   ${({ variant }) => variant === 'outline' && outlineStyles}
   ${({ variant }) => variant === 'icon' && iconStyles}
   ${({ shape }) => shape === 'round' && roundStyles}
-  ${({ disabled }) => disabled && disabledStyles}
 `;
 
 const Button = ({ children, variant = 'solid', ...props }) => {

@@ -2,19 +2,24 @@
 
 exports[`Default Button renders button with default props 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
 }
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -32,19 +37,24 @@ exports[`Default Button renders button with default props 1`] = `
 
 exports[`Ghost Button renders button with primary color for text & without background & border 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
 }
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -62,21 +72,24 @@ exports[`Ghost Button renders button with primary color for text & without backg
 
 exports[`Ghost Button renders button with primary color for text & without background & border but disabled 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -95,13 +108,13 @@ exports[`Ghost Button renders button with primary color for text & without backg
 
 exports[`Ghost Button renders button with primary color for text & without background & border in round shape 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   min-width: 3rem;
@@ -111,6 +124,11 @@ exports[`Ghost Button renders button with primary color for text & without backg
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -129,13 +147,13 @@ exports[`Ghost Button renders button with primary color for text & without backg
 
 exports[`Ghost Button renders button with red color for text & without background & border 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
@@ -143,6 +161,11 @@ exports[`Ghost Button renders button with red color for text & without backgroun
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -166,13 +189,13 @@ exports[`Icon Button renders button primary colored icon 1`] = `
 }
 
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
@@ -180,6 +203,11 @@ exports[`Icon Button renders button primary colored icon 1`] = `
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -214,22 +242,25 @@ exports[`Icon Button renders button primary colored icon but disabled 1`] = `
 }
 
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   color: var(--button-primary-color);
   padding: 0;
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -265,13 +296,13 @@ exports[`Icon Button renders button red colored icon 1`] = `
 }
 
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   color: var(--button-primary-color);
@@ -280,6 +311,11 @@ exports[`Icon Button renders button red colored icon 1`] = `
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -308,13 +344,13 @@ exports[`Icon Button renders button red colored icon 1`] = `
 
 exports[`Outlined Button renders button with transparent background & primary colored border and text 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -322,6 +358,11 @@ exports[`Outlined Button renders button with transparent background & primary co
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -339,13 +380,13 @@ exports[`Outlined Button renders button with transparent background & primary co
 
 exports[`Outlined Button renders button with transparent background & primary colored border and text and rounded borders 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
@@ -356,6 +397,11 @@ exports[`Outlined Button renders button with transparent background & primary co
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -374,22 +420,25 @@ exports[`Outlined Button renders button with transparent background & primary co
 
 exports[`Outlined Button renders button with transparent background & primary colored border and text but disabled 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
   color: var(--button-primary-color);
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -408,13 +457,13 @@ exports[`Outlined Button renders button with transparent background & primary co
 
 exports[`Outlined Button renders button with transparent background & red colored border and text 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: transparent;
   border: 1px solid var(--button-primary-color);
@@ -423,6 +472,11 @@ exports[`Outlined Button renders button with transparent background & red colore
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -440,13 +494,13 @@ exports[`Outlined Button renders button with transparent background & red colore
 
 exports[`Solid Button renders button with primary color as background & white font & rounded border 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
   min-width: 3rem;
@@ -456,6 +510,11 @@ exports[`Solid Button renders button with primary color as background & white fo
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -474,19 +533,24 @@ exports[`Solid Button renders button with primary color as background & white fo
 
 exports[`Solid Button renders button with primary color as background & white font 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
 }
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -504,21 +568,24 @@ exports[`Solid Button renders button with primary color as background & white fo
 
 exports[`Solid Button renders button with primary color as background & white font but disabled 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   background-color: var(--button-primary-color);
   color: white;
-  opacity: 0.4;
-  pointer-events: none;
 }
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
@@ -537,13 +604,13 @@ exports[`Solid Button renders button with primary color as background & white fo
 
 exports[`Solid Button renders button with red background color & white font 1`] = `
 .c0 {
+  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: #000000;
   --button-primary-color: red;
   background-color: var(--button-primary-color);
   color: white;
@@ -551,6 +618,11 @@ exports[`Solid Button renders button with red background color & white font 1`] 
 
 .c0 svg {
   width: 1.2rem;
+}
+
+.c0:disabled {
+  opacity: 0.4;
+  pointer-events: none;
 }
 
 .c0:hover {
