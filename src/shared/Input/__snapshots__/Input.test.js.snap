@@ -19,18 +19,18 @@ exports[`renders editable input 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  border: 1px solid #d8d8d8;
+  border: 1px solid var(--border-color);
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
 }
 
 .c2:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c2 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -40,6 +40,8 @@ exports[`renders editable input 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c3:focus {
@@ -128,19 +130,19 @@ exports[`renders input with validation error 1`] = `
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  border: 1px solid #d8d8d8;
+  border: 1px solid var(--border-color);
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
-  border: 1px solid red;
+  border: 1px solid var(--danger-color);
 }
 
 .c2:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c2 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -150,6 +152,8 @@ exports[`renders input with validation error 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c3:focus {
@@ -216,18 +220,18 @@ exports[`renders readonly input 1`] = `
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
 .c2:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c2 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -237,6 +241,8 @@ exports[`renders readonly input 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c3:focus {

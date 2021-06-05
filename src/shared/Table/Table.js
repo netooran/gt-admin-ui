@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { useMemo, useState } from 'react';
+import { memo, useMemo, useState } from 'react';
 import styled from 'styled-components';
 import Header from 'shared/Table/Header/Header';
 import Footer from 'shared/Table/Footer/Footer';
@@ -17,7 +17,7 @@ const StyledTable = styled.table`
   }
 
   tr {
-    border-bottom: 1px solid lightgray;
+    border-bottom: 1px solid var(--border-color);
   }
 
   td,
@@ -111,9 +111,9 @@ const Table = ({
           />
         </thead>
         <tbody>
-          {pageData.map((row, i) => (
+          {pageData.map((row) => (
             <Row
-              key={i}
+              key={row.id}
               data={row}
               columns={columns}
               isSelected={selectedRows.has(row.id)}
@@ -153,4 +153,4 @@ Table.propTypes = {
   }),
 };
 
-export default Table;
+export default memo(Table);

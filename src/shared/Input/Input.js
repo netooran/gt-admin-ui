@@ -12,21 +12,22 @@ const readonlyStyles = css`
 
 const Wrapper = styled(Row)`
   justify-content: space-between;
-  border: 1px solid ${({ readonly }) => (readonly ? 'transparent' : '#d8d8d8')};
+  border: 1px solid
+    ${({ readonly }) => (readonly ? 'transparent' : 'var(--border-color)')};
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
 
   :focus-within {
-    border: 1px solid #1890ff;
+    border: 1px solid var(--control-focus-color);
   }
 
   ${({ padding }) => padding && `padding: ${padding};`}
   ${({ readonly }) => readonly && readonlyStyles}
-  ${({ error }) => error && 'border: 1px solid red;'}
+  ${({ error }) => error && 'border: 1px solid var(--danger-color);'}
 
   svg {
-    fill: red;
+    fill: var(--danger-color);
     width: 1.2rem;
     padding: 0 0.5rem;
   }
@@ -37,6 +38,8 @@ const StyledInput = styled.input`
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 
   :focus {
     outline: none;

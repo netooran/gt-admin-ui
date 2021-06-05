@@ -2,8 +2,6 @@ import PropTypes from 'prop-types';
 import styled, { css } from 'styled-components';
 
 const defaultStyles = css`
-  --button-primary-color: #000000;
-
   border: none;
   cursor: pointer;
   opacity: 0.7;
@@ -30,28 +28,28 @@ const hoverStyles = css`
 `;
 
 const dangerStyles = css`
-  --button-primary-color: red;
+  --primary-color: var(--danger-color);
 `;
 
 const solidStyles = css`
-  background-color: var(--button-primary-color);
+  background-color: var(--primary-color);
   color: white;
 `;
 
 const outlineStyles = css`
   background-color: transparent;
-  border: 1px solid var(--button-primary-color);
-  color: var(--button-primary-color); ;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color); ;
 `;
 
 const ghostStyles = css`
   background-color: transparent;
-  color: var(--button-primary-color);
+  color: var(--primary-color);
 `;
 
 const iconStyles = css`
   background-color: transparent;
-  color: var(--button-primary-color);
+  color: var(--primary-color);
   padding: 0;
 `;
 

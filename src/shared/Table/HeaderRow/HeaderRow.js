@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import { FunctionUtils } from 'utils/utils/utils';
+import Checkbox from '../../Checkbox/Checkbox';
 
 const HeaderRow = ({ options, columns, isSelected, selectAll }) => {
   const [isChecked, setIsChecked] = useState(isSelected);
@@ -18,8 +19,7 @@ const HeaderRow = ({ options, columns, isSelected, selectAll }) => {
     <tr>
       {selectable && (
         <th>
-          <input
-            type="checkbox"
+          <Checkbox
             aria-label="Select all"
             checked={isChecked}
             onChange={(event) => {

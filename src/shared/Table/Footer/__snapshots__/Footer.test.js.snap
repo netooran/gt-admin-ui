@@ -2,15 +2,14 @@
 
 exports[`Footer with select all actions renders delete selected button active 1`] = `
 .c1 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: red;
-  background-color: var(--button-primary-color);
+  --primary-color: var(--danger-color);
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -55,15 +54,14 @@ exports[`Footer with select all actions renders delete selected button active 1`
 
 exports[`Footer with select all actions renders delete selected button disabled 1`] = `
 .c1 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: red;
-  background-color: var(--button-primary-color);
+  --primary-color: var(--danger-color);
+  background-color: var(--primary-color);
   color: white;
 }
 
@@ -135,14 +133,13 @@ exports[`renders footer with pagination 1`] = `
 }
 
 .c2 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  background-color: var(--button-primary-color);
+  background-color: var(--primary-color);
   color: white;
   min-width: 3rem;
   min-height: 3rem;
@@ -163,7 +160,6 @@ exports[`renders footer with pagination 1`] = `
 }
 
 .c5 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
@@ -171,8 +167,8 @@ exports[`renders footer with pagination 1`] = `
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   background-color: transparent;
-  border: 1px solid var(--button-primary-color);
-  color: var(--button-primary-color);
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
   min-width: 3rem;
   min-height: 3rem;
   padding: 0;

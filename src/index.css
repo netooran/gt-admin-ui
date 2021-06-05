@@ -1,10 +1,41 @@
+root {
+  color-scheme: light dark;
+}
+
 body {
+  --bg-color: #ffffff;
+  --color: #000000;
+  --border-color: #d8d8d8;
+  --active-bg-color: #f2f2f2;
+  --hover-bg-color: #e5e5e5;
+  --control-bg-color: #ffffff;
+  --control-focus-color: #1890ff;
+  --danger-color: red;
+
+  --primary-color: #1890ff;
+
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: var(--bg-color);
+  color: var(--color);
+  border-color: #d8d8d8;
+}
+
+body.dark-mode {
+  --bg-color: #212121;
+  --color: whitesmoke;
+  --border-color: #333333;
+  --active-bg-color: #262626;
+  --hover-bg-color: #2d2d2d;
+  --control-bg-color: #363636;
+  --danger-color: #990000;
+
+  --primary-color: #0f5899;
 }
 
 code {

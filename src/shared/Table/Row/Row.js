@@ -5,15 +5,15 @@ import { Trash, Edit, Save } from '@styled-icons/boxicons-solid';
 import ButtonGroup from 'shared/ButtonGroup/ButtonGroup';
 import Button from 'shared/Button/Button';
 import Input from 'shared/Input/Input';
+import Checkbox from '../../Checkbox/Checkbox';
 
 const StyledRow = styled.tr`
-  --row-active-bg: #f2f2f2;
-
   :hover {
-    background-color: var(--row-active-bg);
+    background-color: var(--hover-bg-color);
   }
 
-  ${({ isSelected }) => isSelected && 'background-color: var(--row-active-bg);'}
+  ${({ isSelected }) =>
+    isSelected && 'background-color: var(--active-bg-color);'}
 `;
 
 const Row = ({ data, columns, options, isSelected, select, save, remove }) => {
@@ -72,9 +72,8 @@ const Row = ({ data, columns, options, isSelected, select, save, remove }) => {
     <StyledRow key={rowData.id} isSelected={isSelected} isEditing={isEditing}>
       {selectable && (
         <td>
-          <input
+          <Checkbox
             aria-label="Select row"
-            type="checkbox"
             checked={isSelected}
             onChange={(event) => select(rowData.id, event.target.checked)}
           />

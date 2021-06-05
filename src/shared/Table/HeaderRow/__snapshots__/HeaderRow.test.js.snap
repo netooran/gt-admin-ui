@@ -17,11 +17,16 @@ exports[`renders header row with actions 1`] = `
 `;
 
 exports[`renders header row with select all 1`] = `
+.c0 {
+  background-color: var(--control-bg-color);
+}
+
 <div>
   <tr>
     <th>
       <input
         aria-label="Select all"
+        class="c0"
         type="checkbox"
       />
     </th>

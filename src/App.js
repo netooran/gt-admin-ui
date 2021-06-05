@@ -2,14 +2,22 @@ import { Suspense } from 'react';
 import styled from 'styled-components';
 import Spinner from 'shared/Spinner/Spinner';
 import Table from 'shared/Table/Table';
-import { ViewPort, Center } from 'shared/Containers/Containers';
-import validators, { getValidator } from './utils/validators/validators';
+import { ViewPort } from 'shared/Containers/Containers';
+import validators, { getValidator } from 'utils/validators/validators';
 import { fetchUsersResource } from 'repository/users/users';
 import ErrorBoundary from 'shared/ErrorBoundary/ErrorBoundary';
+import Header from 'Header/Header';
 
 const TableWrapper = styled.div`
   height: 50vw;
-  min-width: 1000px;
+  width: 1000px;
+`;
+
+const Main = styled.main`
+  padding: 1rem;
+
+  display: flex;
+  justify-content: center;
 `;
 
 const App = () => {
@@ -43,7 +51,8 @@ const App = () => {
 
   return (
     <ViewPort>
-      <Center>
+      <Header />
+      <Main>
         <TableWrapper>
           <ErrorBoundary>
             <Suspense fallback={<Spinner />}>
@@ -56,7 +65,7 @@ const App = () => {
             </Suspense>
           </ErrorBoundary>
         </TableWrapper>
-      </Center>
+      </Main>
     </ViewPort>
   );
 };

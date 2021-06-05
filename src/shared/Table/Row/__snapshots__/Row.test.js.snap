@@ -19,16 +19,15 @@ exports[`renders deletable row 1`] = `
 }
 
 .c6 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
   font-weight: bold;
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
-  --button-primary-color: red;
+  --primary-color: var(--danger-color);
   background-color: transparent;
-  color: var(--button-primary-color);
+  color: var(--primary-color);
   padding: 0;
 }
 
@@ -65,18 +64,18 @@ exports[`renders deletable row 1`] = `
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
 .c3:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c3 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -86,6 +85,8 @@ exports[`renders deletable row 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c4:focus {
@@ -98,12 +99,8 @@ exports[`renders deletable row 1`] = `
   pointer-events: none;
 }
 
-.c0 {
-  --row-active-bg: #f2f2f2;
-}
-
 .c0:hover {
-  background-color: var(--row-active-bg);
+  background-color: var(--hover-bg-color);
 }
 
 <div>
@@ -186,7 +183,6 @@ exports[`renders editble row handles validation error on save 1`] = `
 }
 
 .c6 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
@@ -194,7 +190,7 @@ exports[`renders editble row handles validation error on save 1`] = `
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   background-color: transparent;
-  color: var(--button-primary-color);
+  color: var(--primary-color);
   padding: 0;
 }
 
@@ -231,18 +227,18 @@ exports[`renders editble row handles validation error on save 1`] = `
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
 .c3:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c3 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -252,6 +248,8 @@ exports[`renders editble row handles validation error on save 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c4:focus {
@@ -264,12 +262,8 @@ exports[`renders editble row handles validation error on save 1`] = `
   pointer-events: none;
 }
 
-.c0 {
-  --row-active-bg: #f2f2f2;
-}
-
 .c0:hover {
-  background-color: var(--row-active-bg);
+  background-color: var(--hover-bg-color);
 }
 
 <div>
@@ -339,16 +333,16 @@ exports[`renders editble row handles validation error on save 1`] = `
 exports[`renders editble row handles validation error on save 2`] = `
 <div>
   <tr
-    class="sc-jrsJWt bQeKdS"
+    class="sc-kEqXSa fzfqEF"
   >
     <td>
       <div
         aria-label="name"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH cHgHBz"
       >
         <input
           aria-label="name"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           role="textbox"
           type="text"
           value="Alex"
@@ -358,11 +352,11 @@ exports[`renders editble row handles validation error on save 2`] = `
     <td>
       <div
         aria-label="email"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH cHgHBz"
       >
         <input
           aria-label="email"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -375,7 +369,7 @@ exports[`renders editble row handles validation error on save 2`] = `
       >
         <button
           aria-label="Save"
-          class="sc-gtsrHT bvpBxk"
+          class="sc-gtsrHT bSllYa"
         >
           .c0 {
   display: inline-block;
@@ -405,16 +399,16 @@ exports[`renders editble row handles validation error on save 2`] = `
 exports[`renders editble row handles validation error on save 3`] = `
 <div>
   <tr
-    class="sc-jrsJWt bQeKdS"
+    class="sc-kEqXSa fzfqEF"
   >
     <td>
       <div
         aria-label="name"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dbzMid"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH iZmuOJ"
       >
         <input
           aria-label="name"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           role="textbox"
           type="text"
           value="Alex"
@@ -486,11 +480,11 @@ exports[`renders editble row handles validation error on save 3`] = `
     <td>
       <div
         aria-label="email"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH cHgHBz"
       >
         <input
           aria-label="email"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -503,7 +497,7 @@ exports[`renders editble row handles validation error on save 3`] = `
       >
         <button
           aria-label="Save"
-          class="sc-gtsrHT bvpBxk"
+          class="sc-gtsrHT bSllYa"
         >
           <svg
             aria-hidden="true"
@@ -543,7 +537,6 @@ exports[`renders editble row renders row in edit mode 1`] = `
 }
 
 .c6 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
@@ -551,7 +544,7 @@ exports[`renders editble row renders row in edit mode 1`] = `
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   background-color: transparent;
-  color: var(--button-primary-color);
+  color: var(--primary-color);
   padding: 0;
 }
 
@@ -588,18 +581,18 @@ exports[`renders editble row renders row in edit mode 1`] = `
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
 .c3:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c3 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -609,6 +602,8 @@ exports[`renders editble row renders row in edit mode 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c4:focus {
@@ -621,12 +616,8 @@ exports[`renders editble row renders row in edit mode 1`] = `
   pointer-events: none;
 }
 
-.c0 {
-  --row-active-bg: #f2f2f2;
-}
-
 .c0:hover {
-  background-color: var(--row-active-bg);
+  background-color: var(--hover-bg-color);
 }
 
 <div>
@@ -696,16 +687,16 @@ exports[`renders editble row renders row in edit mode 1`] = `
 exports[`renders editble row renders row in edit mode 2`] = `
 <div>
   <tr
-    class="sc-jrsJWt bQeKdS"
+    class="sc-kEqXSa fzfqEF"
   >
     <td>
       <div
         aria-label="name"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH cHgHBz"
       >
         <input
           aria-label="name"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           role="textbox"
           type="text"
           value="Alex"
@@ -715,11 +706,11 @@ exports[`renders editble row renders row in edit mode 2`] = `
     <td>
       <div
         aria-label="email"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH cHgHBz"
       >
         <input
           aria-label="email"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -732,7 +723,7 @@ exports[`renders editble row renders row in edit mode 2`] = `
       >
         <button
           aria-label="Save"
-          class="sc-gtsrHT bvpBxk"
+          class="sc-gtsrHT bSllYa"
         >
           .c0 {
   display: inline-block;
@@ -778,7 +769,6 @@ exports[`renders editble row renders row in read only mode 1`] = `
 }
 
 .c6 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
@@ -786,7 +776,7 @@ exports[`renders editble row renders row in read only mode 1`] = `
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   background-color: transparent;
-  color: var(--button-primary-color);
+  color: var(--primary-color);
   padding: 0;
 }
 
@@ -823,18 +813,18 @@ exports[`renders editble row renders row in read only mode 1`] = `
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
 .c3:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c3 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -844,6 +834,8 @@ exports[`renders editble row renders row in read only mode 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c4:focus {
@@ -856,12 +848,8 @@ exports[`renders editble row renders row in read only mode 1`] = `
   pointer-events: none;
 }
 
-.c0 {
-  --row-active-bg: #f2f2f2;
-}
-
 .c0:hover {
-  background-color: var(--row-active-bg);
+  background-color: var(--hover-bg-color);
 }
 
 <div>
@@ -947,7 +935,6 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
 }
 
 .c6 {
-  --button-primary-color: #000000;
   border: none;
   cursor: pointer;
   opacity: 0.7;
@@ -955,7 +942,7 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
   padding: 0.5rem 1.5rem;
   border-radius: 3rem;
   background-color: transparent;
-  color: var(--button-primary-color);
+  color: var(--primary-color);
   padding: 0;
 }
 
@@ -992,18 +979,18 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
 .c3:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c3 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -1013,6 +1000,8 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c4:focus {
@@ -1025,12 +1014,8 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
   pointer-events: none;
 }
 
-.c0 {
-  --row-active-bg: #f2f2f2;
-}
-
 .c0:hover {
-  background-color: var(--row-active-bg);
+  background-color: var(--hover-bg-color);
 }
 
 <div>
@@ -1100,16 +1085,16 @@ exports[`renders editble row saves row successfully if values are valid 1`] = `
 exports[`renders editble row saves row successfully if values are valid 2`] = `
 <div>
   <tr
-    class="sc-jrsJWt bQeKdS"
+    class="sc-kEqXSa fzfqEF"
   >
     <td>
       <div
         aria-label="name"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH cHgHBz"
       >
         <input
           aria-label="name"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           role="textbox"
           type="text"
           value="Alex"
@@ -1119,11 +1104,11 @@ exports[`renders editble row saves row successfully if values are valid 2`] = `
     <td>
       <div
         aria-label="email"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH dffPor"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH cHgHBz"
       >
         <input
           aria-label="email"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           role="textbox"
           type="text"
           value="Alex@protonmail.com"
@@ -1136,7 +1121,7 @@ exports[`renders editble row saves row successfully if values are valid 2`] = `
       >
         <button
           aria-label="Save"
-          class="sc-gtsrHT bvpBxk"
+          class="sc-gtsrHT bSllYa"
         >
           .c0 {
   display: inline-block;
@@ -1166,16 +1151,16 @@ exports[`renders editble row saves row successfully if values are valid 2`] = `
 exports[`renders editble row saves row successfully if values are valid 3`] = `
 <div>
   <tr
-    class="sc-jrsJWt bQeKdS"
+    class="sc-kEqXSa fzfqEF"
   >
     <td>
       <div
         aria-label="name"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH inrRyb"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH elpEZU"
       >
         <input
           aria-label="name"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           disabled=""
           role="textbox"
           type="text"
@@ -1186,11 +1171,11 @@ exports[`renders editble row saves row successfully if values are valid 3`] = `
     <td>
       <div
         aria-label="email"
-        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH inrRyb"
+        class="sc-eCApnc sc-jSFjdj sc-fujyAs gzHVCO dWYWuH elpEZU"
       >
         <input
           aria-label="email"
-          class="sc-pNWdM ckmRzF"
+          class="sc-pNWdM eLIfVe"
           disabled=""
           role="textbox"
           type="text"
@@ -1204,7 +1189,7 @@ exports[`renders editble row saves row successfully if values are valid 3`] = `
       >
         <button
           aria-label="Edit"
-          class="sc-gtsrHT bvpBxk"
+          class="sc-gtsrHT bSllYa"
         >
           .c0 {
   display: inline-block;
@@ -1266,18 +1251,18 @@ exports[`renders row 1`] = `
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
 .c3:focus-within {
-  border: 1px solid #1890ff;
+  border: 1px solid var(--control-focus-color);
 }
 
 .c3 svg {
-  fill: red;
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
@@ -1287,6 +1272,8 @@ exports[`renders row 1`] = `
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
 .c4:focus {
@@ -1299,12 +1286,8 @@ exports[`renders row 1`] = `
   pointer-events: none;
 }
 
-.c0 {
-  --row-active-bg: #f2f2f2;
-}
-
 .c0:hover {
-  background-color: var(--row-active-bg);
+  background-color: var(--hover-bg-color);
 }
 
 <div>
@@ -1351,76 +1334,78 @@ exports[`renders row 1`] = `
 `;
 
 exports[`renders selectable row where current selection is false 1`] = `
-.c5 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c5 button {
+.c6 button {
   margin-right: 0.5rem;
 }
 
-.c1 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c2 {
+.c3 {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
 }
 
-.c3 {
+.c4 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
-.c3:focus-within {
-  border: 1px solid #1890ff;
+.c4:focus-within {
+  border: 1px solid var(--control-focus-color);
 }
 
-.c3 svg {
-  fill: red;
+.c4 svg {
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
 
-.c4 {
+.c5 {
   border-style: none;
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
-.c4:focus {
+.c5:focus {
   outline: none;
 }
 
-.c4:disabled {
+.c5:disabled {
   color: inherit;
   background-color: transparent;
   pointer-events: none;
 }
 
-.c0 {
-  --row-active-bg: #f2f2f2;
+.c1 {
+  background-color: var(--control-bg-color);
 }
 
 .c0:hover {
-  background-color: var(--row-active-bg);
+  background-color: var(--hover-bg-color);
 }
 
 <div>
@@ -1430,17 +1415,18 @@ exports[`renders selectable row where current selection is false 1`] = `
     <td>
       <input
         aria-label="Select row"
+        class="c1"
         type="checkbox"
       />
     </td>
     <td>
       <div
         aria-label="name"
-        class="c1 c2 c3"
+        class="c2 c3 c4"
       >
         <input
           aria-label="name"
-          class="c4"
+          class="c5"
           disabled=""
           role="textbox"
           type="text"
@@ -1451,11 +1437,11 @@ exports[`renders selectable row where current selection is false 1`] = `
     <td>
       <div
         aria-label="email"
-        class="c1 c2 c3"
+        class="c2 c3 c4"
       >
         <input
           aria-label="email"
-          class="c4"
+          class="c5"
           disabled=""
           role="textbox"
           type="text"
@@ -1465,7 +1451,7 @@ exports[`renders selectable row where current selection is false 1`] = `
     </td>
     <td>
       <div
-        class="c5"
+        class="c6"
       />
     </td>
   </tr>
@@ -1473,77 +1459,82 @@ exports[`renders selectable row where current selection is false 1`] = `
 `;
 
 exports[`renders selectable row where current selection is true 1`] = `
-.c5 {
+.c6 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c5 button {
+.c6 button {
   margin-right: 0.5rem;
 }
 
-.c1 {
+.c2 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
 }
 
-.c2 {
+.c3 {
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row;
 }
 
-.c3 {
+.c4 {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
   border: 1px solid transparent;
   border-radius: 0.2rem;
-  background-color: white;
+  background-color: var(--control-bg-color);
   min-width: 250px;
   background-color: transparent;
   pointer-events: none;
 }
 
-.c3:focus-within {
-  border: 1px solid #1890ff;
+.c4:focus-within {
+  border: 1px solid var(--control-focus-color);
 }
 
-.c3 svg {
-  fill: red;
+.c4 svg {
+  fill: var(--danger-color);
   width: 1.2rem;
   padding: 0 0.5rem;
 }
 
-.c4 {
+.c5 {
   border-style: none;
   border-radius: 0.2rem;
   padding: 0.5rem;
   width: 100%;
+  background-color: inherit;
+  color: inherit;
 }
 
-.c4:focus {
+.c5:focus {
   outline: none;
 }
 
-.c4:disabled {
+.c5:disabled {
   color: inherit;
   background-color: transparent;
   pointer-events: none;
 }
 
+.c1 {
+  background-color: var(--control-bg-color);
+}
+
 .c0 {
-  --row-active-bg: #f2f2f2;
-  background-color: var(--row-active-bg);
+  background-color: var(--active-bg-color);
 }
 
 .c0:hover {
-  background-color: var(--row-active-bg);
+  background-color: var(--hover-bg-color);
 }
 
 <div>
@@ -1554,17 +1545,18 @@ exports[`renders selectable row where current selection is true 1`] = `
       <input
         aria-label="Select row"
         checked=""
+        class="c1"
         type="checkbox"
       />
     </td>
     <td>
       <div
         aria-label="name"
-        class="c1 c2 c3"
+        class="c2 c3 c4"
       >
         <input
           aria-label="name"
-          class="c4"
+          class="c5"
           disabled=""
           role="textbox"
           type="text"
@@ -1575,11 +1567,11 @@ exports[`renders selectable row where current selection is true 1`] = `
     <td>
       <div
         aria-label="email"
-        class="c1 c2 c3"
+        class="c2 c3 c4"
       >
         <input
           aria-label="email"
-          class="c4"
+          class="c5"
           disabled=""
           role="textbox"
           type="text"
@@ -1589,7 +1581,7 @@ exports[`renders selectable row where current selection is true 1`] = `
     </td>
     <td>
       <div
-        class="c5"
+        class="c6"
       />
     </td>
   </tr>
